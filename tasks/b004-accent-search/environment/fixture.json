@@ -1,0 +1,8 @@
+{
+  "data/customers.json": {
+    "utf8": "[\n  {\n    \"id\": \"C01\",\n    \"name\": \"Đặng Thị Hồng\"\n  },\n  {\n    \"id\": \"C02\",\n    \"name\": \"Nguyễn Văn Ước\"\n  },\n  {\n    \"id\": \"C03\",\n    \"name\": \"Hoàng-An\"\n  },\n  {\n    \"id\": \"C04\",\n    \"name\": \"Hoàng An\"\n  },\n  {\n    \"id\": \"C05\",\n    \"name\": \"Đặng  An\"\n  },\n  {\n    \"id\": \"C06\",\n    \"name\": \"DANG An\"\n  }\n]\n"
+  },
+  "data/queries.json": {
+    "utf8": "[\n  {\n    \"id\": \"Q01\",\n    \"text\": \"dang\"\n  },\n  {\n    \"id\": \"Q02\",\n    \"text\": \"UOC\"\n  },\n  {\n    \"id\": \"Q03\",\n    \"text\": \"hoang an\"\n  },\n  {\n    \"id\": \"Q04\",\n    \"text\": \"hoang-an\"\n  },\n  {\n    \"id\": \"Q05\",\n    \"text\": \"đặng\"\n  },\n  {\n    \"id\": \"Q06\",\n    \"text\": \"xyz\"\n  },\n  {\n    \"id\": \"Q07\",\n    \"text\": \"\"\n  },\n  {\n    \"id\": \"Q08\",\n    \"text\": \"dang  an\"\n  },\n  {\n    \"id\": \"Q09\",\n    \"text\": \"dang\"\n  }\n]\n"
+  }
+}

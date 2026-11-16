@@ -1,0 +1,14 @@
+{
+  "schema": "vi-stage10-dispatch-guard/1",
+  "kind": "rejected-draft-preflight",
+  "exit_code": 2,
+  "safe_stdout": {
+    "error": "EXECUTION_ERROR",
+    "exception_type": "Exception"
+  },
+  "credential_value_read": false,
+  "provider_requests": 0,
+  "container_creation": false,
+  "reason": "Draft rejected by approved() before evidence/ledger/container/client operations",
+  "stage9_ledger_unchanged": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "vi-terminal-model-profile/0.1",
+  "scope": "native-six",
+  "run_id": "native-model-pilot",
+  "languages": ["en", "vi"],
+  "repeats": 3,
+  "concurrency": 1,
+  "budget": {"max_inference_usd": null, "max_compute_usd": null, "smoke_max_usd": null},
+  "configurations": [
+    {"id":"candidate-a","agent":null,"agent_version":null,"model":null,"provider":null,"endpoint":null,"reasoning_effort":null,"system_prompt_path":null,"agent_kwargs":{},"max_tokens":null,"max_turns":null,"timeout_sec":null,"architecture":null,"credential_env_name":null},
+    {"id":"candidate-b","agent":null,"agent_version":null,"model":null,"provider":null,"endpoint":null,"reasoning_effort":null,"system_prompt_path":null,"agent_kwargs":{},"max_tokens":null,"max_turns":null,"timeout_sec":null,"architecture":null,"credential_env_name":null}
+  ]
+}

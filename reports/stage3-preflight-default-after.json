@@ -1,0 +1,27 @@
+{
+  "ready": false,
+  "steps": [
+    {
+      "name": "filesystem-capabilities",
+      "passed": true,
+      "elapsed_sec": 0.0010284930003763293
+    },
+    {
+      "name": "filesystem-type",
+      "passed": true,
+      "elapsed_sec": 0.002071269000225584
+    },
+    {
+      "name": "docker-cli-engine",
+      "passed": false,
+      "error_type": "ValueError",
+      "detail": "Owned CLI probe timed out; process group stopped",
+      "elapsed_sec": 10.007475350999812
+    }
+  ],
+  "elapsed_sec": 10.010591009000564,
+  "deadline_sec": 45,
+  "error": "docker-cli-engine failed",
+  "jobs_dir": "/tmp/vi-terminal-bench-runtime/jobs",
+  "filesystem_type": "ext2/ext3"
+}

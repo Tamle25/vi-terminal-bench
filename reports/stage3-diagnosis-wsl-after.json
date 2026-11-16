@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-11-12T06:58:22.953880+00:00",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "docker_cli": "/usr/bin/docker",
+  "environment_override_names": [],
+  "probes": {
+    "cli_version": {
+      "returncode": 143,
+      "timed_out": true,
+      "elapsed_sec": 5.005708306000088,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    "cli_context": {
+      "returncode": 0,
+      "timed_out": false,
+      "elapsed_sec": 0.01642353299939714,
+      "stdout": "default\n",
+      "stderr": ""
+    },
+    "unix_api": {
+      "error_type": "TimeoutError",
+      "elapsed_sec": 5.037926216999949
+    }
+  },
+  "resolved_cli": "/mnt/wsl/docker-desktop/cli-tools/usr/bin/docker",
+  "executable_magic_hex": "7f454c46",
+  "unix_socket_present": true
+}

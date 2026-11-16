@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "passed": false,
+      "reason": "ATTESTATION_EXPIRED_OR_INVALID"
+    },
+    {
+      "passed": false,
+      "reason": "ATTESTATION_EXPIRED_OR_INVALID"
+    },
+    {
+      "passed": false,
+      "reason": "ATTESTATION_EXPIRED_OR_INVALID"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    }
+  ],
+  "provider_calls": 0,
+  "credential_read": false
+}

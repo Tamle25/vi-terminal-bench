@@ -1,0 +1,39 @@
+{
+  "ready": true,
+  "steps": [
+    {
+      "name": "filesystem-capabilities",
+      "passed": true,
+      "elapsed_sec": 0.00230912100050773
+    },
+    {
+      "name": "filesystem-type",
+      "passed": true,
+      "elapsed_sec": 0.004516502000114997
+    },
+    {
+      "name": "docker-cli-engine",
+      "passed": true,
+      "elapsed_sec": 0.21641115000056743
+    },
+    {
+      "name": "docker-linux",
+      "passed": true,
+      "elapsed_sec": 1.3609997040475719e-06
+    },
+    {
+      "name": "static-network-policy",
+      "passed": true,
+      "elapsed_sec": 0.028115957000409253
+    }
+  ],
+  "elapsed_sec": 0.25137192599959235,
+  "deadline_sec": 45,
+  "error": null,
+  "jobs_dir": "/tmp/vi-terminal-bench-runtime/jobs",
+  "filesystem_type": "ext2/ext3",
+  "docker_server": "28.1.1",
+  "docker_os": "linux",
+  "tasks": 6,
+  "static_network_none": true
+}

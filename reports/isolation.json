@@ -1,0 +1,23 @@
+{
+  "kind": "live-container-snapshot-not-exhaustive-security-audit",
+  "recorded_at_utc": "2026-11-12T05:14:14.552415+00:00",
+  "snapshots": [
+    {
+      "container": "b002-unicode-files__cvrfpd4__verifier__trial-main-1",
+      "image_id": "sha256:be02d8b60f339a978462de4e3b3b7316fd9070759ebf0ce2619719901517aea4",
+      "network_mode": "none",
+      "memory_bytes": 1073741824,
+      "nano_cpus": 1000000000,
+      "read_only_mount_destinations": []
+    },
+    {
+      "container": "b001-vn-invoice__9ytvjtv__verifier__trial-main-1",
+      "image_id": "sha256:8d772514bcbdf50ed2bd0662171ba6c8dc662f17b59de2d4b322d306afd74b83",
+      "network_mode": "none",
+      "memory_bytes": 1073741824,
+      "nano_cpus": 1000000000,
+      "read_only_mount_destinations": []
+    }
+  ],
+  "all_observed_network_none": true
+}

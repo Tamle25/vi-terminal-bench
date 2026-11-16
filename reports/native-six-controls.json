@@ -1,0 +1,1010 @@
+{
+  "kind": "verifier-controls-not-model-evaluation",
+  "python": "3.12.12 (main, Feb 24 2026, 20:29:11) [GCC 12.2.0]",
+  "unicode_version": "15.0.0",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+  "recorded_at_utc": "2026-11-12T05:34:43.273525+00:00",
+  "controls": [
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "oracle-1",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "oracle-2",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "oracle-3",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "alternative",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "no-op",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable artifact: output/hoa_don.jsonl"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "empty-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Empty records: output/hoa_don.jsonl"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "first-row-only",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice content/order/count mismatch"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "strip-accents",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice content/order/count mismatch"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "month-day-swap",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice content/order/count mismatch"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "wrong-amount",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice content/order/count mismatch"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "string-amount",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice types"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "boolean-zero",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice types"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "missing-errors",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable artifact: output/errors.jsonl"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "wrong-error-priority",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Error report mismatch"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "changed-source",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Input CSV changed"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "nfd-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Customer name must be NFC"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "utf8-bom",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "BOM forbidden: output/hoa_don.jsonl"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "invalid-utf8",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invalid UTF-8/JSON: output/hoa_don.jsonl"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "deeply-nested-json",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice schema"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "duplicate-json-key",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Duplicate JSON key: invoice_id"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "extra-field",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice schema"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "wrong-order",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invoice content/order/count mismatch"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "oversized-artifact",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Not a bounded regular file: output/hoa_don.jsonl"
+    },
+    {
+      "task_id": "b001-vn-invoice",
+      "control": "symlink-artifact",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Symlink: output/hoa_don.jsonl"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "oracle-1",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "oracle-2",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "oracle-3",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "alternative",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "no-op",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable artifact: output/files/0001--Báo cáo.txt"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "missing-nfd",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable artifact: output/files/0001--Báo cáo.txt"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "lost-file",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable artifact: output/files/0001--Báo cáo.txt"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "overwritten-file",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Copied file missing/changed"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "strip-filename-accents",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable artifact: output/files/0001--Báo cáo.txt"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "wrong-filename-space",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable artifact: output/files/0001--Báo cáo.txt"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "wrong-hash",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Index content/order mismatch"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "string-size",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Index types"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "wrong-source-form",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Index content/order mismatch"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "wrong-order",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Index content/order mismatch"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "changed-source",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Source content changed"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "extra-file",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Extra/missing output file"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "empty-index",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Empty index/blank line"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "deeply-nested-json",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Index schema"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "missing-index",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable artifact: output/index.jsonl"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "utf8-bom",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "BOM forbidden"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "control": "symlink-file",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Symlink: output/files/0001--Báo cáo.txt"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "oracle-1",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "oracle-2",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "oracle-3",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "alternative",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "no-op",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable: output/report.json"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "missing-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable: output/report.json"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "empty-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invalid JSON/UTF-8"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "changed-source",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Source changed: data/01.bin"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "symlink-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Symlink artifact"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "oversized-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Artifact must be a regular file <= 1 MiB"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "invalid-utf8",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invalid JSON/UTF-8"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "latin1",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Wrong encoding, Unicode, newline or text content"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "drop-marks",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Wrong encoding, Unicode, newline or text content"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "nfd-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Wrong encoding, Unicode, newline or text content"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "text-bom",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Wrong encoding, Unicode, newline or text content"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "crlf-not-normalized",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Wrong encoding, Unicode, newline or text content"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "missing-converted",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Converted file set mismatch"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "extra-error-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Converted file set mismatch"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "wrong-error-status",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Conversion report mismatch"
+    },
+    {
+      "task_id": "b003-windows1258",
+      "control": "missing-empty-file",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Converted file set mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "oracle-1",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "oracle-2",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "oracle-3",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "alternative",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "no-op",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable: output/results.json"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "missing-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable: output/results.json"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "empty-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invalid JSON/UTF-8"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "changed-source",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Source changed: data/customers.json"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "symlink-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Symlink artifact"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "oversized-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Artifact must be a regular file <= 1 MiB"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "invalid-utf8",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invalid JSON/UTF-8"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "no-d-mapping",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "case-sensitive",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "nfd-missed",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "punctuation-collapsed",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "whitespace-collapsed",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "empty-query-all",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "display-name-changed",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "missing-query",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "wrong-order",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b004-accent-search",
+      "control": "extra-match",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Search results/schema/order/display-name mismatch"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "oracle-1",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "oracle-2",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "oracle-3",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "alternative",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "no-op",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable: output/catalog.json"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "missing-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable: output/catalog.json"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "empty-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invalid JSON/UTF-8"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "changed-source",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Source changed: data/catalog.json"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "symlink-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Symlink artifact"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "oversized-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Artifact must be a regular file <= 1 MiB"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "invalid-utf8",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invalid JSON/UTF-8"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "codepoint-sort",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Collation/order/tie-break/content mismatch"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "accent-stripped-sort",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Collation/order/tie-break/content mismatch"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "numeric-sort",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Collation/order/tie-break/content mismatch"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "wrong-tie-break",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Collation/order/tie-break/content mismatch"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "uppercase-first",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Collation/order/tie-break/content mismatch"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "display-normalized",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Collation/order/tie-break/content mismatch"
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "control": "lost-row",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Collation/order/tie-break/content mismatch"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "oracle-1",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "oracle-2",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "oracle-3",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "alternative",
+      "expected_pass": true,
+      "actual_pass": true,
+      "matched": true,
+      "reason": null
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "no-op",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable: output/orders.csv"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "missing-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Missing/unreadable: output/orders.csv"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "empty-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Exactly one UTF-8 BOM required"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "changed-source",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Source changed: data/orders.json"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "symlink-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Symlink artifact"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "oversized-output",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Artifact must be a regular file <= 1 MiB"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "invalid-utf8",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Exactly one UTF-8 BOM required"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "missing-bom",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Exactly one UTF-8 BOM required"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "double-bom",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Exactly one UTF-8 BOM required"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "wrong-delimiter",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "CSV cells/header/order mismatch"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "lf-newlines",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "All line breaks must be CRLF, including final record"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "no-final-newline",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "All line breaks must be CRLF, including final record"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "wrong-money",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "CSV cells/header/order mismatch"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "lost-leading-zero",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "CSV cells/header/order mismatch"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "quote-corrupted",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "Invalid UTF-8/CSV"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "header-wrong-order",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "CSV cells/header/order mismatch"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "control": "unescaped-multiline",
+      "expected_pass": false,
+      "actual_pass": false,
+      "matched": true,
+      "reason": "CSV cells/header/order mismatch"
+    }
+  ],
+  "all_matched": true
+}

@@ -1,0 +1,5 @@
+{
+  "data/orders.json": {
+    "utf8": "[\n  {\n    \"id\": \"0002\",\n    \"customer\": \"Công ty Hoa; Việt\",\n    \"date\": \"2026-04-03\",\n    \"amount_vnd\": 1234567,\n    \"note\": \"Giao \\\"sớm\\\", trước 9h\"\n  },\n  {\n    \"id\": \"0001\",\n    \"customer\": \"Đặng Thị Hồng\",\n    \"date\": \"2024-02-29\",\n    \"amount_vnd\": 0,\n    \"note\": \"Dòng 1\\nDòng 2\"\n  },\n  {\n    \"id\": \"0003\",\n    \"customer\": \"Nguyễn Văn Ước\",\n    \"date\": \"2026-12-01\",\n    \"amount_vnd\": 2500,\n    \"note\": \"\"\n  }\n]\n"
+  }
+}

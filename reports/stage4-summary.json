@@ -1,0 +1,117 @@
+{
+  "schema": "vi-stage4-summary/0.1",
+  "recorded_at_utc": "2026-11-12T07:49:36.043774+00:00",
+  "kind": "offline-engineering-not-model-evaluation",
+  "milestones": {
+    "G4.1": "offline_contracts_validated",
+    "G4.2": "simulation_validated",
+    "G4.3": "missing_input",
+    "G4.4": "not_run",
+    "G4.5": "not_run"
+  },
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "six_task_payloads_and_prompts_unchanged": true,
+  "historical_archives_unchanged": true,
+  "historical_metadata_unchanged": true,
+  "archive_inventory": [
+    {
+      "path": "jobs/m1-linux-validation.tar.gz",
+      "sha256": "5b773351699330f17617edce85454e13bd507fe22ec0733337aa7b25d1345450",
+      "status": "pass"
+    },
+    {
+      "path": "jobs/native-six-validation.tar.gz",
+      "sha256": "bafa17779a804b22d22260a207f72ae03a1ed7dc43327534428fddacb20f046c",
+      "status": "pass"
+    },
+    {
+      "path": "jobs/stage3-targeted-smoke.tar.gz",
+      "sha256": "cca274ec917554529818f6ec5368691fc6f2e92f662dc38e8e23a3725ba784aa",
+      "status": "pass"
+    },
+    {
+      "path": "jobs/stage3-review-public.tar.gz",
+      "sha256": "ee2da2c63b0a4d18992bfd18eb404308889b4d3650025cd813158602ab25e7da",
+      "status": "pass"
+    },
+    {
+      "path": "jobs/stage3-review-reference.tar.gz",
+      "sha256": "e8ec363314458a82bda5fc1dc80dde09e4bb88d2659e4cebda61762af434777e",
+      "status": "pass"
+    }
+  ],
+  "unit_tests": {
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "tests_run": 70,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "all_passed": true
+  },
+  "simulation": {
+    "kind": "offline-simulation-not-model-evaluation",
+    "all_matched": true,
+    "planned_trials": 72,
+    "partial_process_dispatches": 11,
+    "final_fake_dispatches": 74,
+    "unique_fake_requests": 74,
+    "final_valid_trials": 72,
+    "resume_did_not_redispatch": true,
+    "currency": "SIM_USD",
+    "synthetic_micro_unit_charges": {
+      "inference": 72950,
+      "compute": 7350
+    },
+    "unknown_cost_attempts": 0,
+    "real_cost_usd": null,
+    "model_calls": 0,
+    "secrets_read": false,
+    "archive": "jobs/stage4-offline-simulation.tar.gz",
+    "archive_sha256": "51b85b9657f3b1eed93d3e005f3b1a0badd6c57ec442bf683f3fc72ae4bb45e2",
+    "restored_ledger_verified": true,
+    "point_scores": "synthetic values only, never model capability",
+    "runtime": "offline local SQLite; no attestation of Docker/model API"
+  },
+  "review_accepted": 0,
+  "review_total": 6,
+  "ready_for_model_dispatch": false,
+  "readiness_checks": [
+    {
+      "name": "model_profile",
+      "status": "missing_input",
+      "next_action": "Fill only decisions actually supplied by owner"
+    },
+    {
+      "name": "independent_review",
+      "status": "missing_input",
+      "next_action": "Obtain actual human review records; do not auto-accept"
+    },
+    {
+      "name": "runtime",
+      "status": "missing_input",
+      "next_action": "Choose an operating profile, then capture fresh run-scoped evidence; no fallback"
+    },
+    {
+      "name": "effective_adapter",
+      "status": "unverified",
+      "next_action": "Verify the concrete selected adapter; simulated mapping is insufficient"
+    },
+    {
+      "name": "budget",
+      "status": "missing_input",
+      "next_action": "Supply current pricing/ledger evidence; simulation currency never pays a real run"
+    },
+    {
+      "name": "execution_manifest",
+      "status": "unverified",
+      "next_action": "Prepare concrete execution manifest after profile/review/runtime choices"
+    }
+  ],
+  "new_real_runtime_attestation": false,
+  "real_adapter_verified": false,
+  "real_provider_executor_implemented": false,
+  "model_calls": 0,
+  "part_A": "missing_eval_snapshot_and_config",
+  "release": "not_performed",
+  "handoff_checks": "historical hashes, raw references and synthetic charges, namespace, UTF-8, AST, JSON, local links passed"
+}

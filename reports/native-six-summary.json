@@ -1,0 +1,73 @@
+{
+  "kind": "native-six-technical-validation-not-model-evaluation",
+  "all_matched": true,
+  "runs": [
+    {
+      "agent": "oracle",
+      "trials": 18,
+      "expected_reward": 1,
+      "matched": true,
+      "per_task": {
+        "b001-vn-invoice": 3,
+        "b002-unicode-files": 3,
+        "b003-windows1258": 3,
+        "b004-accent-search": 3,
+        "b005-vietnamese-collation": 3,
+        "b006-vietnamese-csv-export": 3
+      },
+      "summed_trial_duration_sec": 2754.675445,
+      "inference_cost": "not-applicable-no-model",
+      "compute_cost_usd": null
+    },
+    {
+      "agent": "nop",
+      "trials": 6,
+      "expected_reward": 0,
+      "matched": true,
+      "per_task": {
+        "b001-vn-invoice": 1,
+        "b002-unicode-files": 1,
+        "b003-windows1258": 1,
+        "b004-accent-search": 1,
+        "b005-vietnamese-collation": 1,
+        "b006-vietnamese-csv-export": 1
+      },
+      "summed_trial_duration_sec": 210.772675,
+      "inference_cost": "not-applicable-no-model",
+      "compute_cost_usd": null
+    }
+  ],
+  "controls": {
+    "total": 125,
+    "positive": 24,
+    "negative": 101,
+    "all_matched": true
+  },
+  "agent_images_checked": 6,
+  "archive": "/mnt/d/Xay dung tuong tu bo Terminal-Bench/jobs/native-six-validation.tar.gz",
+  "archive_sha256": "bafa17779a804b22d22260a207f72ae03a1ed7dc43327534428fddacb20f046c",
+  "restored_jobs": [
+    {
+      "job": "native-six-oracle-validation-vi-r1",
+      "trials": 6,
+      "matched": true
+    },
+    {
+      "job": "native-six-oracle-validation-vi-r2",
+      "trials": 6,
+      "matched": true
+    },
+    {
+      "job": "native-six-oracle-validation-vi-r3",
+      "trials": 6,
+      "matched": true
+    },
+    {
+      "job": "native-six-nop-validation-vi-r1",
+      "trials": 6,
+      "matched": true
+    }
+  ],
+  "independent_review": "pending",
+  "model_pilot": "not-run"
+}

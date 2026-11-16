@@ -1,0 +1,34 @@
+{
+  "schema": "vi-provider-connectivity/1",
+  "run_id": "stage9-openai-connectivity-001",
+  "scope": "provider-connectivity",
+  "provider": "openai",
+  "account_reference": "local-dotenv-user-provided-project-key",
+  "account_reference_kind": "local credential selector; provider project ID unverified",
+  "authorization": "User delegated model choice and authorized testing up to USD 2 in this conversation",
+  "currency": "USD",
+  "cap_usd": "2.00",
+  "reservation_usd": "0.01",
+  "max_requests": 1,
+  "timeout_seconds": 30,
+  "input_token_reserve": 4096,
+  "credential_source": "workspace .env only; scoped model-api-client",
+  "pricing": {
+    "checked_client_date": "2026-11-13",
+    "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "unit": "USD per 1000000 tokens; standard service tier",
+    "input": "0.75",
+    "cached_input": "0.075",
+    "output": "4.50"
+  },
+  "request": {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "input": "Chỉ trả lời đúng một dòng: Kết nối tiếng Việt thành công.",
+    "max_output_tokens": 128,
+    "reasoning": {"effort": "none"},
+    "service_tier": "default",
+    "store": false,
+    "stream": false,
+    "tools": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "runtime-capture-failed",
+  "run_id": "stage11-runtime-diagnostic",
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "preflight": {
+    "ready": false,
+    "steps": [
+      {
+        "name": "filesystem-capabilities",
+        "passed": true,
+        "elapsed_sec": 0.0010306700000910496
+      },
+      {
+        "name": "filesystem-type",
+        "passed": true,
+        "elapsed_sec": 0.0017222579999724985
+      },
+      {
+        "name": "docker-cli-engine",
+        "passed": false,
+        "error_type": "ValueError",
+        "detail": "Owned CLI probe timed out; process group stopped",
+        "elapsed_sec": 10.004180044000123
+      }
+    ],
+    "elapsed_sec": 10.006948242999897,
+    "deadline_sec": 45,
+    "error": "docker-cli-engine failed",
+    "jobs_dir": "/tmp/vi-terminal-bench-runtime/jobs",
+    "filesystem_type": "ext2/ext3"
+  },
+  "ready": false
+}

@@ -1,0 +1,148 @@
+{
+  "schema": "vi-stage4-state/0.1",
+  "recorded_at_utc": "2026-11-12T07:35:23.574668+00:00",
+  "scope": "offline-engineering-not-model-evaluation",
+  "snapshot": {
+    "id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+    "tasks": {
+      "b001-vn-invoice": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-invoice",
+        "skill": "number-date",
+        "payload_sha256": "b19a1a2aa7f105227d25fd5e8aa789e1166a83dfd91f960379c68ab6d2244f3e",
+        "prompts": {
+          "en": "c2bdd8e655ac9ef4e3934895f8f0cd1e997dd8ada939b2f6dc53781ed0d49729",
+          "vi": "53209d466b9e8b05940af3a6dfca0cf6e13474495453b0851c6d8da160fc4e37"
+        }
+      },
+      "b002-unicode-files": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-unicode-files",
+        "skill": "unicode-files",
+        "payload_sha256": "eb697b96b4679b8a9266c1cfd57db4f816bb0a941503d034cfdb69c9db2e2a9d",
+        "prompts": {
+          "en": "7945f4b9e23038b63f48b0f209497d05bc77d526c9fc469523d8247c59b6b702",
+          "vi": "51c2759301d5def11fefda5416d0a0a6fe2472d719d281bf8b2afb21639a8355"
+        }
+      },
+      "b003-windows1258": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-legacy-encoding",
+        "skill": "encoding",
+        "payload_sha256": "21d2b14d4bac76de63a7424dd8eff69befda6262f3ee82094213abcbdc0b7c42",
+        "prompts": {
+          "en": "79e2893bd96c6042f0769a640222268d3ee7964b94638c91247aa89c3e5c3706",
+          "vi": "6d926cf180118f23e985b17a998605ad57180a15dd28bd535d22c42ddf07a044"
+        }
+      },
+      "b004-accent-search": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-accent-search",
+        "skill": "search-normalization",
+        "payload_sha256": "18d699485ee400e52e30d75832ac2fe98d26c8c1a2fed93593e26573f3ca2eef",
+        "prompts": {
+          "en": "b5f00e5d1ed490a4db70cadc3d5c137dadd9cf3230efd94c35f83aa979bd1fbb",
+          "vi": "d887124492e800c37ac7e4e8d1dfa0e872664b0c06dbefc306fdf3387a483eb3"
+        }
+      },
+      "b005-vietnamese-collation": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-collation",
+        "skill": "collation",
+        "payload_sha256": "fd80d79c27fd2aa7f07309164bd6586a278429f16ba48d7d765c0f44a6c9a2e3",
+        "prompts": {
+          "en": "d98b50718fd6d987ef7b1c059f9c3f8c02af6ec7e48c74918d03e567b80d1d3e",
+          "vi": "c8879ad791329ba59dad4b8e0e840752ac4a8d25eb8d5fae1979f2a9b36a3176"
+        }
+      },
+      "b006-vietnamese-csv-export": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-csv-export",
+        "skill": "csv-log-pipeline",
+        "payload_sha256": "17e6f34e40070a84de5f2bb18474597cb3461e02e4176cf5194eaafab24b86d2",
+        "prompts": {
+          "en": "3421ccc8a7c88fda9dd0b1b23a7e61756b76fed9b47e5e0617719cc236c9ed41",
+          "vi": "113db802e8797ab383897196e74b502d4bc46532ba52ca5a7acddfb63c54cf18"
+        }
+      }
+    }
+  },
+  "archive_inventory": [
+    {
+      "path": "jobs/m1-linux-validation.tar.gz",
+      "sha256": "5b773351699330f17617edce85454e13bd507fe22ec0733337aa7b25d1345450",
+      "status": "pass"
+    },
+    {
+      "path": "jobs/native-six-validation.tar.gz",
+      "sha256": "bafa17779a804b22d22260a207f72ae03a1ed7dc43327534428fddacb20f046c",
+      "status": "pass"
+    },
+    {
+      "path": "jobs/stage3-targeted-smoke.tar.gz",
+      "sha256": "cca274ec917554529818f6ec5368691fc6f2e92f662dc38e8e23a3725ba784aa",
+      "status": "pass"
+    },
+    {
+      "path": "jobs/stage3-review-public.tar.gz",
+      "sha256": "ee2da2c63b0a4d18992bfd18eb404308889b4d3650025cd813158602ab25e7da",
+      "status": "pass"
+    },
+    {
+      "path": "jobs/stage3-review-reference.tar.gz",
+      "sha256": "e8ec363314458a82bda5fc1dc80dde09e4bb88d2659e4cebda61762af434777e",
+      "status": "pass"
+    }
+  ],
+  "states": [
+    {
+      "name": "historical_evidence",
+      "status": "pass",
+      "evidence": "stage3-summary.json and checked archive hashes",
+      "next_action": null
+    },
+    {
+      "name": "independent_review",
+      "status": "missing_input",
+      "evidence": "review records remain pending",
+      "next_action": "Supply actual human review records for these hashes"
+    },
+    {
+      "name": "model_profile_and_budget",
+      "status": "missing_input",
+      "evidence": "model-pilot.template.json contains null decisions",
+      "next_action": "Choose two concrete profiles and budgets"
+    },
+    {
+      "name": "runtime_for_model",
+      "status": "unverified",
+      "evidence": "stage3 default path failed and scoped relay passed development only",
+      "next_action": "Explicit profile choice and fresh run-scoped capture; no automatic probe or root fallback"
+    },
+    {
+      "name": "real_adapter",
+      "status": "unverified",
+      "evidence": "no actual agent selected",
+      "next_action": "Verify actual profile mapping when supplied"
+    },
+    {
+      "name": "part_A",
+      "status": "missing_input",
+      "evidence": "Eval snapshot/config unavailable",
+      "next_action": "Follow Eval input checklist"
+    },
+    {
+      "name": "release",
+      "status": "not_applicable",
+      "evidence": "offline stage does not publish",
+      "next_action": "License/hosting decisions remain with owner"
+    }
+  ],
+  "model_calls": 0
+}

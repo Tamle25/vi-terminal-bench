@@ -1,0 +1,90 @@
+{
+  "en": [
+    {
+      "task_id": "b001-vn-invoice",
+      "family_id": "vn-invoice",
+      "track": "B",
+      "primary_skill": "number-date",
+      "difficulty": "easy-provisional",
+      "task_version": "0.1.0",
+      "languages": [
+        "en",
+        "vi"
+      ],
+      "source": "original-synthetic",
+      "license_status": "pending-owner-decision",
+      "author": "Codex-assisted",
+      "reviewer": null,
+      "review_status": "pending",
+      "split": "development",
+      "language": "en",
+      "instruction_sha256": "c2bdd8e655ac9ef4e3934895f8f0cd1e997dd8ada939b2f6dc53781ed0d49729",
+      "payload_sha256": "c30cf5db04e49ab89ad92a6ac680f8e43120662a2c2edbb6c16b74c98d9970b3"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "family_id": "vn-unicode-files",
+      "track": "B",
+      "primary_skill": "unicode-files",
+      "difficulty": "easy-provisional",
+      "task_version": "0.1.0",
+      "languages": [
+        "en",
+        "vi"
+      ],
+      "source": "original-synthetic",
+      "license_status": "pending-owner-decision",
+      "author": "Codex-assisted",
+      "reviewer": null,
+      "review_status": "pending",
+      "split": "development",
+      "language": "en",
+      "instruction_sha256": "7945f4b9e23038b63f48b0f209497d05bc77d526c9fc469523d8247c59b6b702",
+      "payload_sha256": "f3438f1eaabec4c791ad78db0cc6156104764252e9eb7193f9194414324a2dcc"
+    }
+  ],
+  "vi": [
+    {
+      "task_id": "b001-vn-invoice",
+      "family_id": "vn-invoice",
+      "track": "B",
+      "primary_skill": "number-date",
+      "difficulty": "easy-provisional",
+      "task_version": "0.1.0",
+      "languages": [
+        "en",
+        "vi"
+      ],
+      "source": "original-synthetic",
+      "license_status": "pending-owner-decision",
+      "author": "Codex-assisted",
+      "reviewer": null,
+      "review_status": "pending",
+      "split": "development",
+      "language": "vi",
+      "instruction_sha256": "53209d466b9e8b05940af3a6dfca0cf6e13474495453b0851c6d8da160fc4e37",
+      "payload_sha256": "c30cf5db04e49ab89ad92a6ac680f8e43120662a2c2edbb6c16b74c98d9970b3"
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "family_id": "vn-unicode-files",
+      "track": "B",
+      "primary_skill": "unicode-files",
+      "difficulty": "easy-provisional",
+      "task_version": "0.1.0",
+      "languages": [
+        "en",
+        "vi"
+      ],
+      "source": "original-synthetic",
+      "license_status": "pending-owner-decision",
+      "author": "Codex-assisted",
+      "reviewer": null,
+      "review_status": "pending",
+      "split": "development",
+      "language": "vi",
+      "instruction_sha256": "51c2759301d5def11fefda5416d0a0a6fe2472d719d281bf8b2afb21639a8355",
+      "payload_sha256": "f3438f1eaabec4c791ad78db0cc6156104764252e9eb7193f9194414324a2dcc"
+    }
+  ]
+}

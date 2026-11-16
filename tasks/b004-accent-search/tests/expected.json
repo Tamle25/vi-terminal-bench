@@ -1,0 +1,106 @@
+[
+  {
+    "query_id": "Q01",
+    "matches": [
+      {
+        "id": "C01",
+        "name": "Đặng Thị Hồng"
+      },
+      {
+        "id": "C05",
+        "name": "Đặng  An"
+      },
+      {
+        "id": "C06",
+        "name": "DANG An"
+      }
+    ],
+    "error": null
+  },
+  {
+    "query_id": "Q02",
+    "matches": [
+      {
+        "id": "C02",
+        "name": "Nguyễn Văn Ước"
+      }
+    ],
+    "error": null
+  },
+  {
+    "query_id": "Q03",
+    "matches": [
+      {
+        "id": "C04",
+        "name": "Hoàng An"
+      }
+    ],
+    "error": null
+  },
+  {
+    "query_id": "Q04",
+    "matches": [
+      {
+        "id": "C03",
+        "name": "Hoàng-An"
+      }
+    ],
+    "error": null
+  },
+  {
+    "query_id": "Q05",
+    "matches": [
+      {
+        "id": "C01",
+        "name": "Đặng Thị Hồng"
+      },
+      {
+        "id": "C05",
+        "name": "Đặng  An"
+      },
+      {
+        "id": "C06",
+        "name": "DANG An"
+      }
+    ],
+    "error": null
+  },
+  {
+    "query_id": "Q06",
+    "matches": [],
+    "error": null
+  },
+  {
+    "query_id": "Q07",
+    "matches": [],
+    "error": "empty_query"
+  },
+  {
+    "query_id": "Q08",
+    "matches": [
+      {
+        "id": "C05",
+        "name": "Đặng  An"
+      }
+    ],
+    "error": null
+  },
+  {
+    "query_id": "Q09",
+    "matches": [
+      {
+        "id": "C01",
+        "name": "Đặng Thị Hồng"
+      },
+      {
+        "id": "C05",
+        "name": "Đặng  An"
+      },
+      {
+        "id": "C06",
+        "name": "DANG An"
+      }
+    ],
+    "error": null
+  }
+]

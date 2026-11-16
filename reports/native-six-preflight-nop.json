@@ -1,0 +1,7 @@
+{
+  "jobs_dir": "/tmp/vi-terminal-bench-runtime/jobs",
+  "docker_server": "28.1.1",
+  "docker_os": "linux",
+  "tasks": 6,
+  "static_network_none": true
+}

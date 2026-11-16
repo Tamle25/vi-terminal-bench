@@ -1,0 +1,50 @@
+{
+  "schema": "vi-stage6-offline/0.1",
+  "origin": "offline-fixture",
+  "kind": "shared-billing-reconciliation-not-model-evaluation",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.12.16",
+  "logical_fixture_requests": 2,
+  "fake_dispatch_calls": 2,
+  "receipt_revisions": 4,
+  "unknown_smoke_blocked_pilot": true,
+  "insufficient_pool_budget_blocked_pilot": true,
+  "receipt_import_replay_no_double_charge": true,
+  "read_only_status_no_mutation": true,
+  "currency": "SIM_USD",
+  "pool_caps_micro_units": {
+    "inference": 1500,
+    "compute": 200
+  },
+  "authoritative_shared_charges_micro_units": {
+    "inference": 1400,
+    "compute": 180
+  },
+  "legacy_task_charges_micro_units": {
+    "inference": 1800,
+    "compute": 180
+  },
+  "billing_adjustment_delta_micro_units": {
+    "inference": -400,
+    "compute": 0
+  },
+  "real_cost_usd": null,
+  "model_calls": 0,
+  "secrets_read": false,
+  "source_files_sha256": {
+    "model_executor.py": "0b40a9bb762fba09817d782c5e75e2f497eb770d1ccb0bded41d733b9ba42b7f",
+    "execution_contracts.py": "39e92624c3c2521eb7567d40dfbba62a7544fdce1f1abcbe5cf72e84457e34d9",
+    "pilot_runner.py": "d7eaa447a051ecd3bfeb5e1e1898bd51bfd4a401c65196e79d700b63f52cdb04",
+    "model_dry_run.py": "fa8dc03bcc34a808902040c678cb9db44c56e3fa9fe09e930c596f18dc9b9137",
+    "pilot_contracts.py": "5f55c7506ed1fc8b423d4efb97c96020ac2b64d8c3ce6ef79184dd08a0859631",
+    "review_records.py": "6f6192cc53b46026e5325e438e5ba1b94f73c6ecab8b73748ab4a4ba166293b4",
+    "materialize_variants.py": "bbecf346b2ebc9275ea5df4cef11c20b2d67ea0d47e852a6bfca0fbb7bc6270f",
+    "billing_ledger.py": "f70e0745dbf89d87b2c71c7cdbbd6b654ff18188bbcbf7121d413d11743060c2",
+    "billing_executor.py": "102d6f3313ea4002c98a0e348198a66972869f37367843ff5917896862662e73",
+    "reconcile_billing.py": "27967187991172c46b57eda4b15a903689a974901b8528303d3710c19ad5bd19"
+  },
+  "scope_note": "One request selected in each fixture scope. Not a completed smoke or 72-trial model pilot.",
+  "restored_all_databases_verified": true,
+  "archive": "jobs/stage6-final-shared-billing.tar.gz",
+  "archive_sha256": "9524d980078ec37be87e691378bae89aabc5fce9a733e89fcc43635d8831126a"
+}

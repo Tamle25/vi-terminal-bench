@@ -1,0 +1,20 @@
+{
+  "kind": "fresh-agent-image-check-not-exhaustive-security-audit",
+  "all_matched": true,
+  "images": [
+    {
+      "task_id": "b001-vn-invoice",
+      "image_id": "sha256:77a2ba3dd77451f196ec1cc7be71fa06074e00823b68d2ec641425580005d766",
+      "tests_absent": true,
+      "solution_absent": true,
+      "expected_absent": true
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "image_id": "sha256:ed16f275e2b1b5a8035b9e23de9a116a08618dc36b4af9d8027f25f5bfc2b348",
+      "tests_absent": true,
+      "solution_absent": true,
+      "expected_absent": true
+    }
+  ]
+}

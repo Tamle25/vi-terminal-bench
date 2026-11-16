@@ -1,0 +1,48 @@
+{
+  "kind": "fresh-agent-image-check-not-exhaustive-security-audit",
+  "all_matched": true,
+  "images": [
+    {
+      "task_id": "b001-vn-invoice",
+      "image_id": "sha256:0dfb1123cc698186e09096b53fbcc66813aaa1a02431a3d2c6ff19b379bb1521",
+      "tests_absent": true,
+      "solution_absent": true,
+      "expected_absent": true
+    },
+    {
+      "task_id": "b002-unicode-files",
+      "image_id": "sha256:43d955ff2a256d606369b91b95f364a90dca6af37bfea0d0ad4e9dec52ffb340",
+      "tests_absent": true,
+      "solution_absent": true,
+      "expected_absent": true
+    },
+    {
+      "task_id": "b003-windows1258",
+      "image_id": "sha256:09b73a5fcd1858866f2026cdc4a571dcf858cc566200e94de15de2a63201c33c",
+      "tests_absent": true,
+      "solution_absent": true,
+      "expected_absent": true
+    },
+    {
+      "task_id": "b004-accent-search",
+      "image_id": "sha256:4b3193eda7a840dae5be2cd6ec6ed4df201e3968201034e675196ae40eeb4e1f",
+      "tests_absent": true,
+      "solution_absent": true,
+      "expected_absent": true
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "image_id": "sha256:fa890ee03126ecbf432d09a966f70a2eef20826064ae0f6d0828af5f2ef36a36",
+      "tests_absent": true,
+      "solution_absent": true,
+      "expected_absent": true
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "image_id": "sha256:fd0e1983a7c0dea807d01da62e5f8013a714b8d742996067ec17106b3c002cc3",
+      "tests_absent": true,
+      "solution_absent": true,
+      "expected_absent": true
+    }
+  ]
+}

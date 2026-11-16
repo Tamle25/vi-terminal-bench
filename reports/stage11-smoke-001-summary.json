@@ -1,0 +1,48 @@
+{
+  "schema": "vi-development-report/1",
+  "scope": "development-smoke",
+  "run_id": "stage11-smoke-001",
+  "development_only": true,
+  "data_origin": "real-model",
+  "independently_reviewed": false,
+  "planned_trials": 2,
+  "valid_trials": 2,
+  "missing_trials": [],
+  "infra_trials": [],
+  "complete": true,
+  "scores": {
+    "en": {
+      "tasks": {
+        "b001-vn-invoice": 1
+      },
+      "macro": 1
+    },
+    "vi": {
+      "tasks": {
+        "b001-vn-invoice": 1
+      },
+      "macro": 1
+    }
+  },
+  "delta_vi_pp": 0,
+  "ci95": null,
+  "ci_reason": "one family per skill; insufficient independent replication",
+  "conservative_token_estimate_usd": 0.011460749999999999,
+  "cost_unknown_trials": [],
+  "invoice_usd": null,
+  "compute_cost_status": "not_metered",
+  "compute_cost_usd": null,
+  "ledger": {
+    "currency": "USD",
+    "origin": "real",
+    "inference_exposure_nano": 11460750,
+    "compute_exposure_nano": 0,
+    "external_exposure_nano": 110000000,
+    "total_exposure_nano": 121460750,
+    "available_nano": 1878539250,
+    "uncertain_requests": 0
+  },
+  "technical_smoke_passed": true,
+  "configuration": "gpt54-mini-host-development-v1",
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288"
+}

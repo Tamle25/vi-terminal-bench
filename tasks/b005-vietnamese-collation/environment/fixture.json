@@ -1,0 +1,5 @@
+{
+  "data/catalog.json": {
+    "utf8": "[\n  {\n    \"id\": \"N01\",\n    \"name\": \"Ước\"\n  },\n  {\n    \"id\": \"N02\",\n    \"name\": \"Đan\"\n  },\n  {\n    \"id\": \"N03\",\n    \"name\": \"An2\"\n  },\n  {\n    \"id\": \"N04\",\n    \"name\": \"Ơn\"\n  },\n  {\n    \"id\": \"N05\",\n    \"name\": \"Ân\"\n  },\n  {\n    \"id\": \"N06\",\n    \"name\": \"an\"\n  },\n  {\n    \"id\": \"N07\",\n    \"name\": \"Án\"\n  },\n  {\n    \"id\": \"N08\",\n    \"name\": \"Êm\"\n  },\n  {\n    \"id\": \"N09\",\n    \"name\": \"Dân\"\n  },\n  {\n    \"id\": \"N10\",\n    \"name\": \"Ôn\"\n  },\n  {\n    \"id\": \"N11\",\n    \"name\": \"Ăn\"\n  },\n  {\n    \"id\": \"N12\",\n    \"name\": \"Un\"\n  },\n  {\n    \"id\": \"N13\",\n    \"name\": \"An10\"\n  },\n  {\n    \"id\": \"N14\",\n    \"name\": \"On\"\n  },\n  {\n    \"id\": \"N15\",\n    \"name\": \"Em\"\n  },\n  {\n    \"id\": \"N16\",\n    \"name\": \"Án\"\n  },\n  {\n    \"id\": \"N17\",\n    \"name\": \"An\"\n  }\n]\n"
+  }
+}

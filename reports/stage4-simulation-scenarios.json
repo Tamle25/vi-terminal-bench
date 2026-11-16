@@ -1,0 +1,20 @@
+{
+  "simulation-stage4-offline--native-model-pilot-candidate-a-en-b001-vn-invoice-r1:1": {
+    "status": "retryable_infra_error",
+    "reward": null,
+    "inference_micros": 250,
+    "compute_micros": 50
+  },
+  "simulation-stage4-offline--native-model-pilot-candidate-a-en-b002-unicode-files-r1:1": {
+    "status": "verifier_error",
+    "reward": null,
+    "inference_micros": 700,
+    "compute_micros": 100
+  },
+  "simulation-stage4-offline--native-model-pilot-candidate-a-en-b003-windows1258-r1:1": {
+    "status": "agent_failure",
+    "reward": 0,
+    "inference_micros": 1000,
+    "compute_micros": 100
+  }
+}

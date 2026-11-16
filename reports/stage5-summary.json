@@ -1,0 +1,149 @@
+{
+  "schema": "vi-stage5-summary/0.1",
+  "recorded_at_utc": "2026-11-12T08:35:10.477494+00:00",
+  "run_id": "stage5-offline-engineering",
+  "scope": "offline-engineering",
+  "kind": "offline-executor-not-model-evaluation",
+  "milestones": {
+    "G5.1": "offline_contracts_validated",
+    "G5.2": "offline_orchestration_validated",
+    "G5.3": "missing_input_and_unverified",
+    "G5.4": "not_run",
+    "G5.5": "not_run"
+  },
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "historical_evidence_unchanged": true,
+  "stage4_report_and_archive_hashes_preserved": true,
+  "task_payloads_and_prompts_unchanged": true,
+  "unit_tests": {
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "tests_run": 102,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "all_passed": true,
+    "execution_workspace": "native-linux-byte-verified-copy"
+  },
+  "verified_test_input_files": 172,
+  "offline_integration": {
+    "schema": "vi-stage5-offline/0.1",
+    "kind": "offline-executor-not-model-evaluation",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.12.16",
+    "target_scope": "model-smoke",
+    "origin": "offline-fixture",
+    "logical_trials": 2,
+    "attempts": 3,
+    "requests": 5,
+    "fake_dispatch_calls": 5,
+    "partial_process_calls": 1,
+    "completed_resume_no_redispatch": true,
+    "known_attempt_and_request_charges_micro_units": {
+      "inference": 4250,
+      "compute": 450
+    },
+    "currency": "SIM_USD",
+    "price_source": "synthetic-not-provider-pricing",
+    "real_cost_usd": null,
+    "model_calls": 0,
+    "secrets_read": false,
+    "restored_databases_verified": true,
+    "archive": "jobs/stage5-scoped-executor.tar.gz",
+    "archive_sha256": "e9445dbf2cd16da2c3aa85b8a1ce1de5457623b79b78274f0baa9925079c0207",
+    "source_files_sha256": {
+      "model_executor.py": "0b40a9bb762fba09817d782c5e75e2f497eb770d1ccb0bded41d733b9ba42b7f",
+      "execution_contracts.py": "39e92624c3c2521eb7567d40dfbba62a7544fdce1f1abcbe5cf72e84457e34d9",
+      "pilot_runner.py": "d7eaa447a051ecd3bfeb5e1e1898bd51bfd4a401c65196e79d700b63f52cdb04",
+      "model_dry_run.py": "fa8dc03bcc34a808902040c678cb9db44c56e3fa9fe09e930c596f18dc9b9137",
+      "pilot_contracts.py": "5f55c7506ed1fc8b423d4efb97c96020ac2b64d8c3ce6ef79184dd08a0859631",
+      "review_records.py": "6f6192cc53b46026e5325e438e5ba1b94f73c6ecab8b73748ab4a4ba166293b4",
+      "materialize_variants.py": "bbecf346b2ebc9275ea5df4cef11c20b2d67ea0d47e852a6bfca0fbb7bc6270f"
+    },
+    "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+    "limitations": "Fixture reviews, runtime, usage and receipts; not a real smoke. Restore checks durable state, not dispatch from relocated fixture prompt paths."
+  },
+  "review_accepted": 0,
+  "review_total": 6,
+  "ready_for_model_dispatch": false,
+  "real_provider_binding": false,
+  "real_runtime_or_isolation_validated": false,
+  "shared_real_provider_account_ledger": "not_implemented",
+  "partial_multi_request_recovery": "conservative_uncertain_no_automatic_continuation",
+  "model_calls": 0,
+  "secrets_read": false,
+  "readiness_checks": [
+    {
+      "name": "profile",
+      "status": "missing_input",
+      "reason": "Required profile fields must be supplied"
+    },
+    {
+      "name": "origin",
+      "status": "pass",
+      "reason": "Fixture/model boundaries must agree"
+    },
+    {
+      "name": "manifest",
+      "status": "unverified",
+      "reason": "Generated preview only; actual frozen execution manifest not supplied"
+    },
+    {
+      "name": "independent_review",
+      "status": "missing_input",
+      "reason": "Pilot needs 6/6; smoke needs its selected tasks; fixtures are not human reviews"
+    },
+    {
+      "name": "runtime",
+      "status": "unverified",
+      "reason": "Fresh selected runtime attestation for this exact run/snapshot required"
+    },
+    {
+      "name": "effective_adapter",
+      "status": "unverified",
+      "reason": "Adapter-observed settings and provenance must match expected contract"
+    },
+    {
+      "name": "budget",
+      "status": "missing_input",
+      "reason": "Scope-bound caps, current source and sufficient known reservation required"
+    },
+    {
+      "name": "provider_binding",
+      "status": "unverified",
+      "reason": "Only a durable offline fixture binding is installed; real provider binding absent"
+    }
+  ],
+  "missing_profile_fields": [
+    "budget.max_inference_usd",
+    "budget.max_compute_usd",
+    "budget.smoke_max_usd",
+    "candidate-a.agent",
+    "candidate-a.agent_version",
+    "candidate-a.model",
+    "candidate-a.provider",
+    "candidate-a.endpoint",
+    "candidate-a.reasoning_effort",
+    "candidate-a.system_prompt_path",
+    "candidate-a.max_tokens",
+    "candidate-a.max_turns",
+    "candidate-a.timeout_sec",
+    "candidate-a.architecture",
+    "candidate-a.credential_env_name",
+    "candidate-b.agent",
+    "candidate-b.agent_version",
+    "candidate-b.model",
+    "candidate-b.provider",
+    "candidate-b.endpoint",
+    "candidate-b.reasoning_effort",
+    "candidate-b.system_prompt_path",
+    "candidate-b.max_tokens",
+    "candidate-b.max_turns",
+    "candidate-b.timeout_sec",
+    "candidate-b.architecture",
+    "candidate-b.credential_env_name"
+  ],
+  "part_A": "missing_eval_snapshot_and_configuration",
+  "publication": "not_performed",
+  "handoff_checks": "Passed historical hashes, 172 executed input hashes, raw/request/normalized charges, archive source, review pending, JSON/AST/UTF-8 and local links",
+  "stage4_archive_count": 5
+}

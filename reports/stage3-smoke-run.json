@@ -1,0 +1,156 @@
+{
+  "schema": "vi-terminal-run/0.1",
+  "kind": "development-validation-not-model-evaluation",
+  "created_at_utc": "2026-11-12T06:50:52.738081+00:00",
+  "run_id": "stage3-targeted",
+  "dataset": "/tmp/vi-terminal-bench-runtime/stage3-targeted-dataset",
+  "jobs_root": "/tmp/vi-terminal-bench-runtime/jobs",
+  "harbor_version": "0.25.0",
+  "configuration_spec": {
+    "agent": "oracle",
+    "model": null,
+    "harbor": "0.25.0",
+    "retries": 0,
+    "concurrency": 1,
+    "network": "compose-none",
+    "profile": "development-validation"
+  },
+  "expected_repeats": 2,
+  "task_manifest": [
+    {
+      "task_id": "b005-vietnamese-collation",
+      "family_id": "vn-collation",
+      "track": "B",
+      "primary_skill": "collation",
+      "difficulty": "easy-provisional",
+      "task_version": "0.1.0",
+      "languages": [
+        "en",
+        "vi"
+      ],
+      "source": "original-synthetic",
+      "license_status": "pending-owner-decision",
+      "author": "Codex-assisted",
+      "reviewer": null,
+      "review_status": "pending",
+      "split": "development"
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "family_id": "vn-csv-export",
+      "track": "B",
+      "primary_skill": "csv-log-pipeline",
+      "difficulty": "easy-provisional",
+      "task_version": "0.1.0",
+      "languages": [
+        "en",
+        "vi"
+      ],
+      "source": "original-synthetic",
+      "license_status": "pending-owner-decision",
+      "author": "Codex-assisted",
+      "reviewer": null,
+      "review_status": "pending",
+      "split": "development"
+    }
+  ],
+  "planned_trials": [
+    {
+      "trial_id": "stage3-targeted-oracle-smoke-vi-b005-vietnamese-collation-r1",
+      "task_id": "b005-vietnamese-collation",
+      "family_id": "vn-collation",
+      "track": "B",
+      "skill": "collation",
+      "language": "vi",
+      "configuration": "oracle-smoke",
+      "configuration_sha256": "71f23f9447cacaf845e0eb030afee9d337a616b88f11f54f96927937423b0ba5",
+      "repeat": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "job_name": "stage3-targeted-oracle-smoke-vi-r1",
+          "task_package": "vi-terminal/b005-vietnamese-collation"
+        }
+      ],
+      "payload_sha256": "fd80d79c27fd2aa7f07309164bd6586a278429f16ba48d7d765c0f44a6c9a2e3",
+      "instruction_sha256": "c8879ad791329ba59dad4b8e0e840752ac4a8d25eb8d5fae1979f2a9b36a3176",
+      "harbor_task_checksum": "c07bf4ed0c84ba1433e6d3cb0aef8acc662ed64cea6a48a4f6ed851f74e91dfc",
+      "task_package": "vi-terminal/b005-vietnamese-collation",
+      "task_version": "0.1.0"
+    },
+    {
+      "trial_id": "stage3-targeted-oracle-smoke-vi-b006-vietnamese-csv-export-r1",
+      "task_id": "b006-vietnamese-csv-export",
+      "family_id": "vn-csv-export",
+      "track": "B",
+      "skill": "csv-log-pipeline",
+      "language": "vi",
+      "configuration": "oracle-smoke",
+      "configuration_sha256": "71f23f9447cacaf845e0eb030afee9d337a616b88f11f54f96927937423b0ba5",
+      "repeat": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "job_name": "stage3-targeted-oracle-smoke-vi-r1",
+          "task_package": "vi-terminal/b006-vietnamese-csv-export"
+        }
+      ],
+      "payload_sha256": "17e6f34e40070a84de5f2bb18474597cb3461e02e4176cf5194eaafab24b86d2",
+      "instruction_sha256": "113db802e8797ab383897196e74b502d4bc46532ba52ca5a7acddfb63c54cf18",
+      "harbor_task_checksum": "a716ba421f65744104c884a71f4572d53d421199da14eca0e6e4ff2757c3cbab",
+      "task_package": "vi-terminal/b006-vietnamese-csv-export",
+      "task_version": "0.1.0"
+    },
+    {
+      "trial_id": "stage3-targeted-oracle-smoke-vi-b005-vietnamese-collation-r2",
+      "task_id": "b005-vietnamese-collation",
+      "family_id": "vn-collation",
+      "track": "B",
+      "skill": "collation",
+      "language": "vi",
+      "configuration": "oracle-smoke",
+      "configuration_sha256": "71f23f9447cacaf845e0eb030afee9d337a616b88f11f54f96927937423b0ba5",
+      "repeat": 2,
+      "attempts": [
+        {
+          "attempt": 1,
+          "job_name": "stage3-targeted-oracle-smoke-vi-r2",
+          "task_package": "vi-terminal/b005-vietnamese-collation"
+        }
+      ],
+      "payload_sha256": "fd80d79c27fd2aa7f07309164bd6586a278429f16ba48d7d765c0f44a6c9a2e3",
+      "instruction_sha256": "c8879ad791329ba59dad4b8e0e840752ac4a8d25eb8d5fae1979f2a9b36a3176",
+      "harbor_task_checksum": "c07bf4ed0c84ba1433e6d3cb0aef8acc662ed64cea6a48a4f6ed851f74e91dfc",
+      "task_package": "vi-terminal/b005-vietnamese-collation",
+      "task_version": "0.1.0"
+    },
+    {
+      "trial_id": "stage3-targeted-oracle-smoke-vi-b006-vietnamese-csv-export-r2",
+      "task_id": "b006-vietnamese-csv-export",
+      "family_id": "vn-csv-export",
+      "track": "B",
+      "skill": "csv-log-pipeline",
+      "language": "vi",
+      "configuration": "oracle-smoke",
+      "configuration_sha256": "71f23f9447cacaf845e0eb030afee9d337a616b88f11f54f96927937423b0ba5",
+      "repeat": 2,
+      "attempts": [
+        {
+          "attempt": 1,
+          "job_name": "stage3-targeted-oracle-smoke-vi-r2",
+          "task_package": "vi-terminal/b006-vietnamese-csv-export"
+        }
+      ],
+      "payload_sha256": "17e6f34e40070a84de5f2bb18474597cb3461e02e4176cf5194eaafab24b86d2",
+      "instruction_sha256": "113db802e8797ab383897196e74b502d4bc46532ba52ca5a7acddfb63c54cf18",
+      "harbor_task_checksum": "a716ba421f65744104c884a71f4572d53d421199da14eca0e6e4ff2757c3cbab",
+      "task_package": "vi-terminal/b006-vietnamese-csv-export",
+      "task_version": "0.1.0"
+    }
+  ],
+  "job_deadline_sec": 300,
+  "conditions": {
+    "1": "first-in-session-preexisting-image-cache-not-cold",
+    "2": "reuse-images-fresh-containers"
+  }
+}

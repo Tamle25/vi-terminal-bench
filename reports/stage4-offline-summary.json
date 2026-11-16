@@ -1,0 +1,24 @@
+{
+  "kind": "offline-simulation-not-model-evaluation",
+  "all_matched": true,
+  "planned_trials": 72,
+  "partial_process_dispatches": 11,
+  "final_fake_dispatches": 74,
+  "unique_fake_requests": 74,
+  "final_valid_trials": 72,
+  "resume_did_not_redispatch": true,
+  "currency": "SIM_USD",
+  "synthetic_micro_unit_charges": {
+    "inference": 72950,
+    "compute": 7350
+  },
+  "unknown_cost_attempts": 0,
+  "real_cost_usd": null,
+  "model_calls": 0,
+  "secrets_read": false,
+  "archive": "jobs/stage4-offline-simulation.tar.gz",
+  "archive_sha256": "51b85b9657f3b1eed93d3e005f3b1a0badd6c57ec442bf683f3fc72ae4bb45e2",
+  "restored_ledger_verified": true,
+  "point_scores": "synthetic values only, never model capability",
+  "runtime": "offline local SQLite; no attestation of Docker/model API"
+}

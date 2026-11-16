@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/var/run/docker.sock",
+    "resolved": "/run/docker.sock",
+    "exists": true,
+    "error_type": "TimeoutError",
+    "elapsed_sec": 2.002627056000165
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker.proxy.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker.proxy.sock",
+    "exists": true,
+    "error_type": "PermissionError",
+    "elapsed_sec": 0.00026969700047629885
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker-desktop-build.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker-desktop-build.sock",
+    "exists": true,
+    "error_type": "PermissionError",
+    "elapsed_sec": 7.853100032662041e-05
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/cri-dockerd-proxy.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/cri-dockerd-proxy.sock",
+    "exists": true,
+    "error_type": "PermissionError",
+    "elapsed_sec": 8.361000072909519e-05
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/Ubuntu-22.04.docker.container-proxy.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/Ubuntu-22.04.docker.container-proxy.sock",
+    "exists": true,
+    "error_type": "PermissionError",
+    "elapsed_sec": 5.08700004502316e-05
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/docker.container-proxy.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/docker.container-proxy.sock",
+    "exists": true,
+    "error_type": "PermissionError",
+    "elapsed_sec": 4.491600066103274e-05
+  }
+]

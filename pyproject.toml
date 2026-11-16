@@ -1,0 +1,12 @@
+[project]
+name = "vi-terminal-bench"
+version = "0.1.0"
+description = "Vietnamese locale-aware terminal benchmark: development scaffold"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[dependency-groups]
+harness = ["harbor==0.25.0"]
+
+[tool.uv]
+package = false

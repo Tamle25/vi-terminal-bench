@@ -1,0 +1,6 @@
+{
+  "schema": "vi-development-runtime-profiles/1",
+  "profiles": [{"id":"desktop-shared-relay-v2","version":2,"mode":"scoped-relay","distro":"Ubuntu-22.04","user":"tamle","endpoint_class":"desktop-shared-container-proxy-command-only","verifier_network":"none","control_socket_in_sandbox":false,"cli_timeout_sec":10,"validated_concurrency":1}],
+  "upstream": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/docker.container-proxy.sock",
+  "note": "Explicit development runtime selection after named Ubuntu proxy timed out; root relay only, workload runs as tamle. No system socket/service mutation."
+}

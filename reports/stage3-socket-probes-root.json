@@ -1,0 +1,54 @@
+[
+  {
+    "path": "/var/run/docker.sock",
+    "resolved": "/run/docker.sock",
+    "exists": true,
+    "error_type": "TimeoutError",
+    "elapsed_sec": 2.002523574999941
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker.proxy.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker.proxy.sock",
+    "exists": true,
+    "status": 200,
+    "version": "28.1.1",
+    "os": "linux",
+    "elapsed_sec": 0.002277664999382978
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker-desktop-build.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker-desktop-build.sock",
+    "exists": true,
+    "status": 404,
+    "version": null,
+    "os": null,
+    "elapsed_sec": 0.024260508999759622
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/cri-dockerd-proxy.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/cri-dockerd-proxy.sock",
+    "exists": true,
+    "status": 200,
+    "version": "28.1.1",
+    "os": "linux",
+    "elapsed_sec": 0.07627772499927232
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/Ubuntu-22.04.docker.container-proxy.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/Ubuntu-22.04.docker.container-proxy.sock",
+    "exists": true,
+    "status": 200,
+    "version": "28.1.1",
+    "os": "linux",
+    "elapsed_sec": 0.020762154000294686
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/docker.container-proxy.sock",
+    "resolved": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/docker.container-proxy.sock",
+    "exists": true,
+    "status": 200,
+    "version": "28.1.1",
+    "os": "linux",
+    "elapsed_sec": 0.016328753000379947
+  }
+]

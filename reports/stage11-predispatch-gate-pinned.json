@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    },
+    {
+      "passed": true,
+      "reason": "pass"
+    }
+  ],
+  "provider_calls": 0,
+  "credential_read": false
+}

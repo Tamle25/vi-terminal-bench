@@ -1,0 +1,40 @@
+{
+  "kind": "harbor-validation-not-model-evaluation",
+  "job": "jobs/m1-nop-vi-static-network",
+  "expected_trials": 2,
+  "observed_trials": 2,
+  "job_finished": true,
+  "all_matched": true,
+  "trials": [
+    {
+      "trial_name": "b001-vn-invoice__zVeERdb",
+      "task_name": "vi-terminal/b001-vn-invoice",
+      "task_checksum": "76023de278ad29bebcb80c65985b48c2cfff6f9bbb72c374267df6b12e746764",
+      "agent": "nop",
+      "reward": 0.0,
+      "expected_reward": 0.0,
+      "separate_verifier": true,
+      "exception": null,
+      "checks": {
+        "passed": false,
+        "reason": "Missing/unreadable artifact: output/hoa_don.jsonl"
+      },
+      "matched": true
+    },
+    {
+      "trial_name": "b002-unicode-files__JwSkGgD",
+      "task_name": "vi-terminal/b002-unicode-files",
+      "task_checksum": "97b82911ebb738a286b57af8bbcb91a1324d7638a61cefb8da1ea3afd40d0836",
+      "agent": "nop",
+      "reward": 0.0,
+      "expected_reward": 0.0,
+      "separate_verifier": true,
+      "exception": null,
+      "checks": {
+        "passed": false,
+        "reason": "Source names changed/missing"
+      },
+      "matched": true
+    }
+  ]
+}

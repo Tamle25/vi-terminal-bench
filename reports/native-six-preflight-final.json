@@ -1,0 +1,6 @@
+{
+  "ready": false,
+  "error_type": "TimeoutExpired",
+  "detail": "Command '['docker', 'version', '--format', '{{json .Server}}']' timed out after 30 seconds",
+  "jobs_dir": "/tmp/vi-terminal-bench-runtime/jobs"
+}

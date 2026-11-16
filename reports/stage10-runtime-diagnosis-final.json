@@ -1,0 +1,25 @@
+{
+  "recorded_at_utc": "2026-11-13T02:52:14.785607+00:00",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "docker_cli": "/mnt/c/Program Files/Docker/Docker/resources/bin/docker",
+  "environment_override_names": [],
+  "probes": {
+    "cli_version": {
+      "returncode": 1,
+      "timed_out": false,
+      "elapsed_sec": 0.025050481999997487,
+      "stdout": "\nThe command 'docker' could not be found in this WSL 2 distro.\nWe recommend to activate the WSL integration in Docker Desktop settings.\n\nFor details about using Docker Desktop with WSL 2, visit:\n\nhttps://docs.docker.com/go/wsl2/\n\n",
+      "stderr": ""
+    },
+    "cli_context": {
+      "returncode": 1,
+      "timed_out": false,
+      "elapsed_sec": 0.02652193599999464,
+      "stdout": "\nThe command 'docker' could not be found in this WSL 2 distro.\nWe recommend to activate the WSL integration in Docker Desktop settings.\n\nFor details about using Docker Desktop with WSL 2, visit:\n\nhttps://docs.docker.com/go/wsl2/\n\n",
+      "stderr": ""
+    }
+  },
+  "resolved_cli": "/mnt/c/Program Files/Docker/Docker/resources/bin/docker",
+  "executable_magic_hex": "23212f75",
+  "unix_socket_present": false
+}

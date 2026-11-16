@@ -1,0 +1,8 @@
+[
+  {"source":"Báo cáo.txt","content_utf8":"Dữ liệu NFC\n"},
+  {"source":"Ba\u0301o ca\u0301o.txt","content_utf8":"Dữ liệu NFD khác\n"},
+  {"source":"báo cáo.txt","content_utf8":"lowercase\n"},
+  {"source":"Đơn hàng.csv","content_utf8":"mã,số lượng\nA,2\n"},
+  {"source":"khách hàng 01.txt","content_utf8":"spaces in filename\n"},
+  {"source":"ảnh mẫu.txt","content_hex":"000102ff0a"}
+]

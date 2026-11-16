@@ -1,0 +1,13 @@
+{
+  "report_fields_equal": true,
+  "normalized_csv_markdown_bytes_equal": true,
+  "completed_resume_requests_unchanged": true,
+  "before_request_count": 86,
+  "after_request_count": 86,
+  "requests_sha256": "78b2919e0b2a8f58a20111ba088db17a02db5eeb342bc1ab3e07f138be82654d",
+  "new_provider_calls_on_completed_resume": 0,
+  "all_36_outcomes_match_ledger": true,
+  "all_artifact_hashes_match": true,
+  "original_reward_zero_preserved": true,
+  "foreign_keys_valid": true
+}

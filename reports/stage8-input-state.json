@@ -1,0 +1,165 @@
+{
+  "schema": "vi-stage8-input/0.1",
+  "recorded_at_utc": "2026-11-12T09:45:06.136866+00:00",
+  "run_id": "stage8-offline-credential-loader",
+  "scope": "offline-engineering-not-model-run",
+  "snapshot": {
+    "id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+    "tasks": {
+      "b001-vn-invoice": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-invoice",
+        "skill": "number-date",
+        "payload_sha256": "b19a1a2aa7f105227d25fd5e8aa789e1166a83dfd91f960379c68ab6d2244f3e",
+        "prompts": {
+          "en": "c2bdd8e655ac9ef4e3934895f8f0cd1e997dd8ada939b2f6dc53781ed0d49729",
+          "vi": "53209d466b9e8b05940af3a6dfca0cf6e13474495453b0851c6d8da160fc4e37"
+        }
+      },
+      "b002-unicode-files": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-unicode-files",
+        "skill": "unicode-files",
+        "payload_sha256": "eb697b96b4679b8a9266c1cfd57db4f816bb0a941503d034cfdb69c9db2e2a9d",
+        "prompts": {
+          "en": "7945f4b9e23038b63f48b0f209497d05bc77d526c9fc469523d8247c59b6b702",
+          "vi": "51c2759301d5def11fefda5416d0a0a6fe2472d719d281bf8b2afb21639a8355"
+        }
+      },
+      "b003-windows1258": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-legacy-encoding",
+        "skill": "encoding",
+        "payload_sha256": "21d2b14d4bac76de63a7424dd8eff69befda6262f3ee82094213abcbdc0b7c42",
+        "prompts": {
+          "en": "79e2893bd96c6042f0769a640222268d3ee7964b94638c91247aa89c3e5c3706",
+          "vi": "6d926cf180118f23e985b17a998605ad57180a15dd28bd535d22c42ddf07a044"
+        }
+      },
+      "b004-accent-search": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-accent-search",
+        "skill": "search-normalization",
+        "payload_sha256": "18d699485ee400e52e30d75832ac2fe98d26c8c1a2fed93593e26573f3ca2eef",
+        "prompts": {
+          "en": "b5f00e5d1ed490a4db70cadc3d5c137dadd9cf3230efd94c35f83aa979bd1fbb",
+          "vi": "d887124492e800c37ac7e4e8d1dfa0e872664b0c06dbefc306fdf3387a483eb3"
+        }
+      },
+      "b005-vietnamese-collation": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-collation",
+        "skill": "collation",
+        "payload_sha256": "fd80d79c27fd2aa7f07309164bd6586a278429f16ba48d7d765c0f44a6c9a2e3",
+        "prompts": {
+          "en": "d98b50718fd6d987ef7b1c059f9c3f8c02af6ec7e48c74918d03e567b80d1d3e",
+          "vi": "c8879ad791329ba59dad4b8e0e840752ac4a8d25eb8d5fae1979f2a9b36a3176"
+        }
+      },
+      "b006-vietnamese-csv-export": {
+        "version": "0.1.0",
+        "author": "Codex-assisted",
+        "family_id": "vn-csv-export",
+        "skill": "csv-log-pipeline",
+        "payload_sha256": "17e6f34e40070a84de5f2bb18474597cb3461e02e4176cf5194eaafab24b86d2",
+        "prompts": {
+          "en": "3421ccc8a7c88fda9dd0b1b23a7e61756b76fed9b47e5e0617719cc236c9ed41",
+          "vi": "113db802e8797ab383897196e74b502d4bc46532ba52ca5a7acddfb63c54cf18"
+        }
+      }
+    }
+  },
+  "stage7_evidence_sha256": {
+    "reports/stage7-decision-package.md": "aedc45f7a5ccb48c011109710bbc567b50db5fa8aa5ad9978db8d6f4945d5da5",
+    "reports/stage7-input-state.json": "0dccb6bfe200bcf7ebc91a447c1f761993477c4ecac316674eb668bacf706fb6",
+    "reports/stage7-model-readiness.json": "775adb5218580c565c9a7c1ff13db2db0ceb37179afdf175456243a3daa5ea2d",
+    "reports/stage7-readiness.md": "bf5749c6d21be117be2129fa4f9cff662dda14986edbaf8520d81ff0ca4c150c",
+    "reports/stage7-summary.json": "3859db1757d1411723e442e1af4b542380cf55b50371d48a92a9fa649dc7d630"
+  },
+  "credential": {
+    "path": ".env",
+    "variable": "OPENAI_API_KEY",
+    "file_present": true,
+    "git_ignored": true,
+    "git_tracked": false,
+    "contents_read": false,
+    "key_fingerprint_recorded": false,
+    "api_auth": "unverified"
+  },
+  "missing_profile_fields": [
+    "budget.max_inference_usd",
+    "budget.max_compute_usd",
+    "budget.smoke_max_usd",
+    "candidate-a.agent",
+    "candidate-a.agent_version",
+    "candidate-a.model",
+    "candidate-a.provider",
+    "candidate-a.endpoint",
+    "candidate-a.reasoning_effort",
+    "candidate-a.system_prompt_path",
+    "candidate-a.max_tokens",
+    "candidate-a.max_turns",
+    "candidate-a.timeout_sec",
+    "candidate-a.architecture",
+    "candidate-a.credential_env_name",
+    "candidate-b.agent",
+    "candidate-b.agent_version",
+    "candidate-b.model",
+    "candidate-b.provider",
+    "candidate-b.endpoint",
+    "candidate-b.reasoning_effort",
+    "candidate-b.system_prompt_path",
+    "candidate-b.max_tokens",
+    "candidate-b.max_turns",
+    "candidate-b.timeout_sec",
+    "candidate-b.architecture",
+    "candidate-b.credential_env_name"
+  ],
+  "review_accepted": 0,
+  "review_total": 6,
+  "inherited_linux_unit_tests": {
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "tests_run": 126,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "all_passed": true,
+    "execution_workspace": "native-linux-byte-verified-copy"
+  },
+  "model_calls": 0,
+  "states": [
+    {
+      "name": "historical_evidence",
+      "status": "pass",
+      "source": "stage6_handoff_audit.audit and stage7 snapshots"
+    },
+    {
+      "name": "credential_storage",
+      "status": "pass",
+      "source": "Local file presence and git check-ignore; contents not read"
+    },
+    {
+      "name": "real_profile_budget_account",
+      "status": "missing_input",
+      "source": "configs/model-pilot.template.json",
+      "next_action": "Supply actual agent/models and budget/account scopes"
+    },
+    {
+      "name": "review",
+      "status": "missing_input",
+      "source": "manifest.jsonl",
+      "next_action": "Assign independent human reviewer and obtain real records"
+    },
+    {
+      "name": "real_runtime_provider_binding",
+      "status": "unverified",
+      "source": "reports/stage7-readiness.md",
+      "next_action": "Verify selected agent/runtime after configuration exists"
+    }
+  ]
+}

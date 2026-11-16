@@ -1,0 +1,1991 @@
+{
+  "schema": "vi-stage11-usage/1",
+  "provider_responses": 85,
+  "request_intents": 86,
+  "cancelled_before_network": 1,
+  "by_run": {
+    "stage11-smoke-001": {
+      "provider_responses": 5,
+      "conservative_nano": 11460750,
+      "published_price_nano": 10510350
+    },
+    "stage11-development-001": {
+      "provider_responses": 76,
+      "conservative_nano": 113858250,
+      "published_price_nano": 113858250
+    },
+    "stage11-smoke-002": {
+      "provider_responses": 4,
+      "conservative_nano": 9603000,
+      "published_price_nano": 9603000
+    }
+  },
+  "stage11_conservative_token_estimate_usd": 0.134922,
+  "stage11_published_price_token_estimate_usd": 0.1339716,
+  "cumulative_conservative_token_estimate_usd": 0.1349925,
+  "cumulative_published_price_token_estimate_usd": 0.1340421,
+  "legacy_exposure_held_usd": 0.01,
+  "correction_margin_held_usd": 0.1,
+  "total_exposure_usd": 0.24492199999999997,
+  "pool_cap_usd": 2,
+  "invoice_usd": null,
+  "compute_cost_status": "not_metered",
+  "compute_cost_usd": null,
+  "requests": [
+    {
+      "run_id": "stage11-smoke-001",
+      "trial_id": "b001-vn-invoice--en--r1--mini",
+      "slot": 2,
+      "client_request_id": "0093a5009b833dd349e3883a1d436e9424cf8aa02c0a1710821f272c842ac86a",
+      "provider_request_id": "req_74eac6b453dc41039a8f6df2c432269b",
+      "response_id": "resp_07dc611129f2f684016af688c7281087d2a909f0bc9a77ac29",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1315,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1321
+      },
+      "conservative_nano": 1013250,
+      "published_price_nano": 1013250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--en--r3--mini",
+      "slot": 2,
+      "client_request_id": "00fce785900fb8d6747cdb8b837365ac8e9f50d6c0db3edbfae02eb7e35bccd8",
+      "provider_request_id": "req_a03e0ac6239a4d23abda58b3621e6130",
+      "response_id": "resp_093d216c7505ecb8016af690eeab1887d28b5f7750ac2a9b69",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 733,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 420,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1153
+      },
+      "conservative_nano": 2439750,
+      "published_price_nano": 2439750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--en--r3--mini",
+      "slot": 1,
+      "client_request_id": "038fd7e09edc75bcc7ed7d96f92b07ef3ca0499c392402c0a7a87b081a97e31c",
+      "provider_request_id": "req_99c6f8be90074bfd8e357e7cd3a7702a",
+      "response_id": "resp_0308ffc50760f157016af69126c33087d2b6cb36ec0955591b",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 678,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 596,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1274
+      },
+      "conservative_nano": 3190500,
+      "published_price_nano": 3190500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--en--r2--mini",
+      "slot": 3,
+      "client_request_id": "054aaaef2a71e1554968dd1d3c87489defc1248294fe520231204595eeeccda6",
+      "provider_request_id": "req_1497ad908e414d5c900d20906abf40c4",
+      "response_id": "resp_0959b1129ec7dc8f016af68c00bb4c87d28c71d47243023142",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1115,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1121
+      },
+      "conservative_nano": 863250,
+      "published_price_nano": 863250
+    },
+    {
+      "run_id": "stage11-smoke-002",
+      "trial_id": "b001-vn-invoice--en--r1--mini",
+      "slot": 2,
+      "client_request_id": "0b3a360bcb90c008657e065d50ae7d26879b22415cb1a5fb2a1756655f20ca9d",
+      "provider_request_id": "req_c77f6c82515d4e85bdb6bf37cdee92c0",
+      "response_id": "resp_083b7162f7341f09016af68a66871487d299428a97d1c15855",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1486,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 32,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1518
+      },
+      "conservative_nano": 1258500,
+      "published_price_nano": 1258500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--vi--r3--mini",
+      "slot": 2,
+      "client_request_id": "0baa8dc95ea94f67e3e00c3f1dcbf12ec3c3e2c7e5e5f3dcdc076c6bf0a29070",
+      "provider_request_id": "req_e036955937644a288cba159692c7385f",
+      "response_id": "resp_04018871e037a50c016af690fea71887d28e135900274614f4",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1121,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 30,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1151
+      },
+      "conservative_nano": 975750,
+      "published_price_nano": 975750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--en--r3--mini",
+      "slot": 1,
+      "client_request_id": "0ebda222680c066e39c9528a5f74c88612f15c2c533731c0f2a63c6f49f5e59a",
+      "provider_request_id": "req_b86f3ae534974c1aa8d03806a0362a44",
+      "response_id": "resp_093d216c7505ecb8016af690eb035487d2aa2c75a2ce4d4b8b",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 586,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 100,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 686
+      },
+      "conservative_nano": 889500,
+      "published_price_nano": 889500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--en--r1--mini",
+      "slot": 1,
+      "client_request_id": "110e2ed90a7fe007878814fbe072eabdb6dd37cd13dc63a44e134be27c751bc2",
+      "provider_request_id": "req_086a079188c5471b80ec22211848e5a8",
+      "response_id": "resp_0727c34a49eb030f016af68b4bf9f487d2ba730940e381b11b",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 508,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 366,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 874
+      },
+      "conservative_nano": 2028000,
+      "published_price_nano": 2028000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--en--r2--mini",
+      "slot": 1,
+      "client_request_id": "123ecdfd84f88b64e6b91e0230785e3f032873b035e02a28597e52e90055af43",
+      "provider_request_id": "req_06e1df51ba6f4d89be21ac4f594aaa91",
+      "response_id": "resp_0c8233988854dad0016af68bdc52b487d287c5b2e98e68c7f6",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 586,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 387,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 973
+      },
+      "conservative_nano": 2181000,
+      "published_price_nano": 2181000
+    },
+    {
+      "run_id": "stage11-smoke-001",
+      "trial_id": "b001-vn-invoice--vi--r1--mini",
+      "slot": 1,
+      "client_request_id": "1453676fd599279ac4d80b22fad7229e77baafc2e4d162939988e62008421c54",
+      "provider_request_id": "req_04d35e40fd1f4e6fae5e4f4577a78bfd",
+      "response_id": "resp_0b61e51c2b8bad40016af688d0342087d2b02357d36333e319",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 755,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 791,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1546
+      },
+      "conservative_nano": 4125750,
+      "published_price_nano": 4125750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--en--r2--mini",
+      "slot": 2,
+      "client_request_id": "1683bb5efbf4af74f975c1c40719125822ea6e121fd8e96d40f3f4be4126c9af",
+      "provider_request_id": "req_dfd2bc38028a4574b18ed08ac87c3370",
+      "response_id": "resp_070cc66f464e47f9016af68c32b8e087d2b90dcbffffb77683",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 759,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 765
+      },
+      "conservative_nano": 596250,
+      "published_price_nano": 596250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--vi--r1--mini",
+      "slot": 1,
+      "client_request_id": "17d572e7fdfaa11c95f2aa1e93f5d1a620aa8e5759e4c03d8ed34e3337287185",
+      "provider_request_id": "req_c0a08dfca7b44225b09e314a54829537",
+      "response_id": "resp_0640f062aba7461a016af68b12b56c87d282cbc3c528cbab70",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 574,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 432,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1006
+      },
+      "conservative_nano": 2374500,
+      "published_price_nano": 2374500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--vi--r2--mini",
+      "slot": 1,
+      "client_request_id": "2142fbad19a463e7cf928c139b6bca03869399d1f7093ce0d3934955bd5fc93e",
+      "provider_request_id": "req_f2d65223d8864c75b5f34a026f00ebd9",
+      "response_id": "resp_08a05705037dd262016af68c14f51887d28dabf37d951080de",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 609,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 368,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 977
+      },
+      "conservative_nano": 2112750,
+      "published_price_nano": 2112750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--vi--r1--mini",
+      "slot": 1,
+      "client_request_id": "271c24122d396040a8d6e55b028ecd37db6253e68a5f78fd51222b925190a70c",
+      "provider_request_id": "req_7478e2b2c8cf4f52b08c3633072db080",
+      "response_id": "resp_02d2daba88302688016af68b58a4a887d2a5df7538913d813b",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 556,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 367,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 923
+      },
+      "conservative_nano": 2068500,
+      "published_price_nano": 2068500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--en--r3--mini",
+      "slot": 1,
+      "client_request_id": "27610b3aa1e958a92f916b6e99a38fd879144a55ec03cf1ae40af6d6693a92aa",
+      "provider_request_id": "req_1ccfbf088bbe47139031fb368b3e3477",
+      "response_id": "resp_0cdb3d2e9fa32161016af6913ec74087d2833143f10f4faeff",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 526,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 380,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 906
+      },
+      "conservative_nano": 2104500,
+      "published_price_nano": 2104500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--vi--r2--mini",
+      "slot": 2,
+      "client_request_id": "2917d7a6d7507452ca423e475e2eeaabe1c20e117dbf73a6cf85b8d85aeb0d37",
+      "provider_request_id": "req_d43b4d70b3874cacb0fcbc8921d57e30",
+      "response_id": "resp_072ea12edcd37720016af68c26d75c87d2acec94c20fb4af42",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 781,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 799
+      },
+      "conservative_nano": 666750,
+      "published_price_nano": 666750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--vi--r3--mini",
+      "slot": 2,
+      "client_request_id": "2a84f4a3ce3f33e5360e6451f5a8e80b50299648d95f7505713ea01edea206b9",
+      "provider_request_id": "req_8673c459e0934efb908621d23b8d6874",
+      "response_id": "resp_00e3387e35417870016af69114a37887d2b561546a71a445a4",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 955,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 973
+      },
+      "conservative_nano": 797250,
+      "published_price_nano": 797250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--en--r1--mini",
+      "slot": 3,
+      "client_request_id": "2acb1ab5fd061bcf4cbcf0da0eef73e49782fe7aff66220c526da6c4e98b5fe3",
+      "provider_request_id": "req_9616e49fd1f14ee0912ce27751d908cd",
+      "response_id": "resp_0098047705f111d8016af68b2dbefc87d2a25dc3885e0f28a7",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1133,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1139
+      },
+      "conservative_nano": 876750,
+      "published_price_nano": 876750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--en--r3--mini",
+      "slot": 1,
+      "client_request_id": "2b911011ae3cec6fc33b7406638920158364cdb039366af329776e63dceae415",
+      "provider_request_id": "req_a5f27e8ee4204a5a891c654ef87c2abe",
+      "response_id": "resp_0199aef9cd8ea1f2016af690d38b4c87d2a555b6b036993ded",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 543,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 348,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 891
+      },
+      "conservative_nano": 1973250,
+      "published_price_nano": 1973250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--vi--r1--mini",
+      "slot": 3,
+      "client_request_id": "2bc8aa4e053d6b4a1c825e0bd83af6dc73db9cdd9b95046ceab601ccd0cf3f96",
+      "provider_request_id": "req_968d8b22b2c1480baa16c178482325cb",
+      "response_id": "resp_0640f062aba7461a016af68b1d3d2487d2ac7728abc693d607",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1337,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 16,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1353
+      },
+      "conservative_nano": 1074750,
+      "published_price_nano": 1074750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--vi--r2--mini",
+      "slot": 1,
+      "client_request_id": "2c99c1425ba6984c60e462dd11644abadeca80008fba9c3122f5fd02e0ad17b8",
+      "provider_request_id": "req_ff21652b44124aabaa9c6d60c732fb83",
+      "response_id": "resp_01908d3d5481dfba016af68bcf6c0c87d2bffc6ec556c11375",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 675,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 348,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1023
+      },
+      "conservative_nano": 2072250,
+      "published_price_nano": 2072250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--vi--r2--mini",
+      "slot": 2,
+      "client_request_id": "387f80e1e729b8631f791b74f810164d42bbc1b14c68e67ba632052851b8d21e",
+      "provider_request_id": "req_02d99b5e183e4c89a5a9bf0e2197856d",
+      "response_id": "resp_0c476316d84c85cc016af68bf075d887d2a7232684b0ab7581",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1336,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1354
+      },
+      "conservative_nano": 1083000,
+      "published_price_nano": 1083000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--vi--r1--mini",
+      "slot": 2,
+      "client_request_id": "38888d5d919b2d2462de97ee67f3e0807062f683c694df7472891c77354f83e8",
+      "provider_request_id": "req_b7c44fb82cb142f08d94276e6940b523",
+      "response_id": "resp_02d2daba88302688016af68b5e65b087d2b9a2fc595a6c008c",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 981,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 17,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 998
+      },
+      "conservative_nano": 812250,
+      "published_price_nano": 812250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--en--r1--mini",
+      "slot": 1,
+      "client_request_id": "3d36f93f43846a92dfe97d0d68658167fe94545721592f39cae7996f5e04ee04",
+      "provider_request_id": "req_4f993e8288ba4bd78e2aefa6ee967f2d",
+      "response_id": "resp_0098047705f111d8016af68b245e1887d28fc08090cea509f0",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 526,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 403,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 929
+      },
+      "conservative_nano": 2208000,
+      "published_price_nano": 2208000
+    },
+    {
+      "run_id": "stage11-smoke-002",
+      "trial_id": "b001-vn-invoice--vi--r1--mini",
+      "slot": 2,
+      "client_request_id": "3d703eb7ce8daa616c4f9228d074f4d1ae3ed65866d6471fe554acf7704c7df4",
+      "provider_request_id": "req_af27a0eaab254b70934096e69098f1a7",
+      "response_id": "resp_099adcc7aa4a526e016af68a74afd487d29841d6281acdd992",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1407,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1434
+      },
+      "conservative_nano": 1176750,
+      "published_price_nano": 1176750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--en--r1--mini",
+      "slot": 1,
+      "client_request_id": "40fab8ba30b9fd9a4cc9aea403fcbde909c9ae0ac8a63e3ca9b51e95f66fc246",
+      "provider_request_id": "req_49fcd89591dc4cc28b58a9d56840938d",
+      "response_id": "resp_0cec679e8e388b42016af68b7ed26c87d2a45ec965e03b3555",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 678,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 576,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1254
+      },
+      "conservative_nano": 3100500,
+      "published_price_nano": 3100500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--en--r1--mini",
+      "slot": 2,
+      "client_request_id": "419e26b90af77f72d73438e1dfdabebbe1346b018d229b422dd3963ab83bb7bc",
+      "provider_request_id": "req_15853b19174b45029526158dc8f15e43",
+      "response_id": "resp_0098047705f111d8016af68b29b58087d2ba799bd67c2d8517",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 976,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 75,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1051
+      },
+      "conservative_nano": 1069500,
+      "published_price_nano": 1069500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--en--r2--mini",
+      "slot": 1,
+      "client_request_id": "41d843797544ab8525a9f281ef772007527979e95b6c49910e0d178202fca154",
+      "provider_request_id": "req_e1d1b172653248cc8f1a1bcf4f50940e",
+      "response_id": "resp_0959b1129ec7dc8f016af68bf77c7c87d2bad44b825d6c0508",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 526,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 371,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 897
+      },
+      "conservative_nano": 2064000,
+      "published_price_nano": 2064000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--en--r2--mini",
+      "slot": 2,
+      "client_request_id": "44661bd5d9681d9ff35fdd719021b2a2984e311c03cf5ec72b78b68d9c3e4001",
+      "provider_request_id": "req_425613a010dc4599b1f88fed347a9baf",
+      "response_id": "resp_062647e2940b1616016af68c0dd2ac87d299a192b50d80eb01",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 983,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 989
+      },
+      "conservative_nano": 764250,
+      "published_price_nano": 764250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--vi--r3--mini",
+      "slot": 1,
+      "client_request_id": "4537de41117f9c39bb48a3b3b58cc34be2403ff7c3888a8e35c2c59408abd854",
+      "provider_request_id": "req_2e8f6093df0e470fb0275be55769140c",
+      "response_id": "resp_0a0e98e116b06fca016af6911ac8cc87d2a862abeedfb76609",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 755,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 596,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1351
+      },
+      "conservative_nano": 3248250,
+      "published_price_nano": 3248250
+    },
+    {
+      "run_id": "stage11-smoke-001",
+      "trial_id": "b001-vn-invoice--vi--r1--mini",
+      "slot": 3,
+      "client_request_id": "46ce6ade4e564c0bd8b854cedc2737a993679d994ee24495420b636e96ea6e85",
+      "provider_request_id": "req_9386de1662fd41e8a39381580ebad039",
+      "response_id": "resp_0b61e51c2b8bad40016af688dcf7d487d2a3093cfea42c452b",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1987,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1408
+        },
+        "output_tokens": 32,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2019
+      },
+      "conservative_nano": 1634250,
+      "published_price_nano": 683850
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--en--r2--mini",
+      "slot": 1,
+      "client_request_id": "49d7dd2573ea782ffabca0ef58a815919504d3c92df75f226f875cf6997128a3",
+      "provider_request_id": "req_25208ce390d741b5b2dd21842cacf131",
+      "response_id": "resp_0f0d0ca3801ac80d016af68bb595d887d29b23bdefad8ff788",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 508,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 357,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 865
+      },
+      "conservative_nano": 1987500,
+      "published_price_nano": 1987500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--en--r1--mini",
+      "slot": 1,
+      "client_request_id": "4a569e4313e7154bdaf727cdce836e8ce57a10f880155a1a05e5fe41c129b9e7",
+      "provider_request_id": "req_64f2d3e087d543ed9cbdf93746bcc3ba",
+      "response_id": "resp_05660bbf8cba63fd016af68b65ba6087d2a5e173144e620060",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 543,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 381,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 924
+      },
+      "conservative_nano": 2121750,
+      "published_price_nano": 2121750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--vi--r3--mini",
+      "slot": 1,
+      "client_request_id": "4ab3069e0af3bff6f77691ba3bef3f88a1d36c06896acc84702895f0a8f4d126",
+      "provider_request_id": "req_43da8ee549294b598fa9e52fb1e0bf33",
+      "response_id": "resp_0eed1d56a1b8f28d016af68c56078887d288163eca6c840f1b",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 548,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 212,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 760
+      },
+      "conservative_nano": 1365000,
+      "published_price_nano": 1365000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--en--r1--mini",
+      "slot": 2,
+      "client_request_id": "4ef9372aed0d20add590c825b105313a52ba0a0e4691dda496e38b7687e1df07",
+      "provider_request_id": "req_76fc6da9821d407c9eccd239db999b52",
+      "response_id": "resp_0cec679e8e388b42016af68b84ed6087d2ab11fec374057f36",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1301,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1307
+      },
+      "conservative_nano": 1002750,
+      "published_price_nano": 1002750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--en--r1--mini",
+      "slot": 2,
+      "client_request_id": "5345a66debd8ca061d405f8adf3b0e9c669b6deaf2b27b5fec88d95079a168ae",
+      "provider_request_id": "req_fd04966d06b04ba6bd44dca4770c75f2",
+      "response_id": "resp_01e4713552dddde3016af68bae662c87d2b88e2a0ce6baaa5d",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 942,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 948
+      },
+      "conservative_nano": 733500,
+      "published_price_nano": 733500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--en--r2--mini",
+      "slot": 2,
+      "client_request_id": "5e8b332f931e48ba4b74170b021f422a33788bd38acc59e9599a2702eaded543",
+      "provider_request_id": "req_0df3b7b1843f4b4fa96551ea2d7254c3",
+      "response_id": "resp_0c14e583cc572bba016af68c4efc5c87d2ac763913fb640588",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1336,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1342
+      },
+      "conservative_nano": 1029000,
+      "published_price_nano": 1029000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--vi--r3--mini",
+      "slot": 2,
+      "client_request_id": "65bc6ca37bd1213b66e12a0ef9e73487bc2ae2d87009038b602628efdb76ac2d",
+      "provider_request_id": "req_0468065f5842478e92a693f7831aa4ea",
+      "response_id": "resp_0230de109b55b4ba016af690e4c64087d2bde9f990fe27025a",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1025,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 21,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1046
+      },
+      "conservative_nano": 863250,
+      "published_price_nano": 863250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--vi--r1--mini",
+      "slot": 1,
+      "client_request_id": "6887e67c48e33952ca243e66b5fb4a3844c2622cd007cf81d8228d34fde71f2c",
+      "provider_request_id": "req_c311d3108d164299b72f45e1f63bb25e",
+      "response_id": "resp_01b7922a5d8c03ae016af68b9b276c87d2ad4ad58d3f3b7123",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 675,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 409,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1084
+      },
+      "conservative_nano": 2346750,
+      "published_price_nano": 2346750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--en--r2--mini",
+      "slot": 2,
+      "client_request_id": "6f857af55b57747de2eed1180b7c98695da762c208ad20c79446d73c2d42d166",
+      "provider_request_id": "req_71a7d50f7ac14d6794a5ec36635a6731",
+      "response_id": "resp_0959b1129ec7dc8f016af68bfc8bf087d2bea6e85b9cee75e4",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 944,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 96,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1040
+      },
+      "conservative_nano": 1140000,
+      "published_price_nano": 1140000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--vi--r1--mini",
+      "slot": 2,
+      "client_request_id": "76e1cd9d2b6f9d89b1d7cc86525cf6160c35561072e4478a1c105de1ef48045b",
+      "provider_request_id": "req_d9b806968fcb427b8e59fea7b8b83f5f",
+      "response_id": "resp_0790cbcc9732635d016af68b93b5a087d2bed0c9362cd57625",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1522,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1549
+      },
+      "conservative_nano": 1263000,
+      "published_price_nano": 1263000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--vi--r1--mini",
+      "slot": 2,
+      "client_request_id": "784bd31ce4972f6d70cc2b9a790800688318170ccb13b39bae19fd76c2bbc56e",
+      "provider_request_id": "req_cfd8446d7ce9414ebd5962e1eee981fa",
+      "response_id": "resp_03a19ef300124f29016af68b445acc87d2b7b8727b8f1c2fee",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 762,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 780
+      },
+      "conservative_nano": 652500,
+      "published_price_nano": 652500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--vi--r2--mini",
+      "slot": 2,
+      "client_request_id": "790fb12bbfa05d417862c2c09133cf781fba05cf2c8fe332b655d6744a05ac79",
+      "provider_request_id": "req_4dd0974ebf824f57ae79b165874699b8",
+      "response_id": "resp_08df2e94a9c8d1bc016af68c41316487d2a87454df879f9d66",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1412,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1439
+      },
+      "conservative_nano": 1180500,
+      "published_price_nano": 1180500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--en--r3--mini",
+      "slot": 2,
+      "client_request_id": "8002c075f25696d255882b866be52b92df8aa754a701031cb92a93a32e2567fc",
+      "provider_request_id": "req_c577dd2000f6496fbcee5de4e5df237c",
+      "response_id": "resp_0308ffc50760f157016af6912c7f2c87d2b17c7e167ea718b3",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1329,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1335
+      },
+      "conservative_nano": 1023750,
+      "published_price_nano": 1023750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--en--r3--mini",
+      "slot": 2,
+      "client_request_id": "8987443f483362b546a21e42d3368eeb3acd935debb9e8324e75303b0ad21200",
+      "provider_request_id": "req_a7bccf6b3ff34e15a52a96c284eb987f",
+      "response_id": "resp_0199aef9cd8ea1f2016af690d9186c87d29d0dc7039c9fe222",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 948,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 954
+      },
+      "conservative_nano": 738000,
+      "published_price_nano": 738000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--en--r2--mini",
+      "slot": 1,
+      "client_request_id": "8ebfe9711a2a2ae60e594a479bd1d82a1bc29982b6e2a9aab3f6f5d4e1f5b4cc",
+      "provider_request_id": "req_df922c36e3ed45999e60fb7d3935823b",
+      "response_id": "resp_070cc66f464e47f9016af68c2e051487d29454a8902882ece3",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 503,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 209,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 712
+      },
+      "conservative_nano": 1317750,
+      "published_price_nano": 1317750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--en--r3--mini",
+      "slot": 1,
+      "client_request_id": "903f44c84e385720afa661ad96584bfc5ef7704e32998a4f4256774ddd9e2cdd",
+      "provider_request_id": "req_bd3c6c6bdfe1498aab551f175abcd5e1",
+      "response_id": "resp_0c8950e78c137187016af690c7c24c87d28ce17ab7961be405",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 503,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 235,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 738
+      },
+      "conservative_nano": 1434750,
+      "published_price_nano": 1434750
+    },
+    {
+      "run_id": "stage11-smoke-002",
+      "trial_id": "b001-vn-invoice--vi--r1--mini",
+      "slot": 1,
+      "client_request_id": "92f78b4f5409dee76a08a84b1514054625fe75f66dbd4740848c918ebe05e42d",
+      "provider_request_id": "req_27e9e336a24a441990447f439591722f",
+      "response_id": "resp_099adcc7aa4a526e016af68a6d722c87d2af91ee9ae9db47c0",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 755,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 598,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1353
+      },
+      "conservative_nano": 3257250,
+      "published_price_nano": 3257250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--en--r3--mini",
+      "slot": 2,
+      "client_request_id": "949dec77e7cd161c5195c85f0ea700e1776b941f67ef8c947960dccb71195a99",
+      "provider_request_id": "req_b1b9e82486914ed1995e354dd6918f27",
+      "response_id": "resp_0cdb3d2e9fa32161016af6914374f887d2ad7d90ca3b062ea8",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 953,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 959
+      },
+      "conservative_nano": 741750,
+      "published_price_nano": 741750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--vi--r2--mini",
+      "slot": 1,
+      "client_request_id": "95066bf3941fa5ee3460b5622e87523b63f31a8e27a49782e3c3b5eb5fb33889",
+      "provider_request_id": "req_ac2cd260d046464abac0570c8356a462",
+      "response_id": "resp_08df2e94a9c8d1bc016af68c39e77487d28f3d2168469ac48b",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 755,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 605,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1360
+      },
+      "conservative_nano": 3288750,
+      "published_price_nano": 3288750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--en--r3--mini",
+      "slot": 2,
+      "client_request_id": "97614d021529cb7515b758b19381ea746c8179ca50c1bc6d0007ca2c55610111",
+      "provider_request_id": "req_9b60027066e14a28b8c70a2ecf2f2de0",
+      "response_id": "resp_0c8950e78c137187016af690cc783487d29e1878fff28d2977",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 792,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 798
+      },
+      "conservative_nano": 621000,
+      "published_price_nano": 621000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--vi--r2--mini",
+      "slot": 2,
+      "client_request_id": "9cf101fac6de26031ef4a76449ef41233cb0e4ae90264b78934df41e705c0a80",
+      "provider_request_id": "req_77c5b862db574a05a2f0f97c85cc3688",
+      "response_id": "resp_08a05705037dd262016af68c1afb9887d2bd1f53554a77104d",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1030,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1049
+      },
+      "conservative_nano": 858000,
+      "published_price_nano": 858000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--vi--r1--mini",
+      "slot": 2,
+      "client_request_id": "9d1a7f7cf02ee23c1d2137680d0802bb2de8808d3906ea9eef7d259eb79c6c65",
+      "provider_request_id": "req_59def0c92fc9401797ee87431a598815",
+      "response_id": "resp_024e8e2222ccfbb4016af68b77d73887d2812a8cbe790a0e9e",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1020,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1039
+      },
+      "conservative_nano": 850500,
+      "published_price_nano": 850500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--vi--r2--mini",
+      "slot": 2,
+      "client_request_id": "9fd08755286590b3e5c864f641d2b7682df1f6b5b2d8f0bd906de8c8f84f3062",
+      "provider_request_id": "req_69bce69e661149f79cd8cfc084afcd62",
+      "response_id": "resp_01908d3d5481dfba016af68bd4c2d887d2821b10c18ac934aa",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1142,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 25,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1167
+      },
+      "conservative_nano": 969000,
+      "published_price_nano": 969000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--en--r1--mini",
+      "slot": 2,
+      "client_request_id": "a2063b90d9ae4b6670ce934cd4522cfc94927ee3ec30f8c1d7d341064402e825",
+      "provider_request_id": "req_ccad9a437a8a444e85fbb428fac13f7b",
+      "response_id": "resp_05660bbf8cba63fd016af68b6b473487d2a2aba0545ab84866",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 977,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 983
+      },
+      "conservative_nano": 759750,
+      "published_price_nano": 759750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--vi--r1--mini",
+      "slot": 1,
+      "client_request_id": "a2834264afe5ec31437b04b255f956bc7c89ca87b45d9a514c0e8ba7c212afd1",
+      "provider_request_id": "req_e874ae2b45e54456a2d996ce94b004b5",
+      "response_id": "resp_0790cbcc9732635d016af68b8baf3087d2a70a2c8d7ba2149d",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 755,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 693,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1448
+      },
+      "conservative_nano": 3684750,
+      "published_price_nano": 3684750
+    },
+    {
+      "run_id": "stage11-smoke-002",
+      "trial_id": "b001-vn-invoice--en--r1--mini",
+      "slot": 1,
+      "client_request_id": "b2e5f91778a59057d70886a64e1557a7707b58e7f8813c64e8ade147aee94fcd",
+      "provider_request_id": "req_aa8a9aa581aa4ee88e2992d19a95e52b",
+      "response_id": "resp_083b7162f7341f09016af68a5fa66487d28b20ddfd07b4a0fc",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 678,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 756,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1434
+      },
+      "conservative_nano": 3910500,
+      "published_price_nano": 3910500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--vi--r1--mini",
+      "slot": 2,
+      "client_request_id": "b6049b3f63aa7fb6b7079559e20aecd9b82d40224f1947d30ef6993a901e6772",
+      "provider_request_id": "req_efaebe8d24894176bda0fe8541285e42",
+      "response_id": "resp_0640f062aba7461a016af68b18c65087d2923a3c96da148be8",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1053,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 82,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1135
+      },
+      "conservative_nano": 1158750,
+      "published_price_nano": 1158750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--en--r1--mini",
+      "slot": 1,
+      "client_request_id": "b7ac384b5bac6db31da4af915431d7f1c78f946944cb6576d1939f97acaf4e9c",
+      "provider_request_id": "req_df3aab4288d14ddbaa41a20ee3abe62a",
+      "response_id": "resp_0a54afeb53f58534016af68b34c17087d2a0a218799c588b8f",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 503,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 161,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 664
+      },
+      "conservative_nano": 1101750,
+      "published_price_nano": 1101750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--vi--r3--mini",
+      "slot": 1,
+      "client_request_id": "ba8f40e293c0896747c5f6ecea9fefbd3b9132aa0fea6c62deed0e917302dca7",
+      "provider_request_id": "req_03491a6855d74b35b112bb805eeba831",
+      "response_id": "resp_04018871e037a50c016af690f9df0487d2b28925752b2e883e",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 675,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 399,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1074
+      },
+      "conservative_nano": 2301750,
+      "published_price_nano": 2301750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--vi--r1--mini",
+      "slot": 2,
+      "client_request_id": "bca688ae913628255f425a72ed92070edee25710e850dbe1d7fa890fdee9dead",
+      "provider_request_id": "req_5b3a91e9e3d1485e93b1c07dfe7f8b59",
+      "response_id": "resp_01b7922a5d8c03ae016af68ba1692887d28d7b61bdf33f8d25",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1152,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 29,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1181
+      },
+      "conservative_nano": 994500,
+      "published_price_nano": 994500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--vi--r2--mini",
+      "slot": 1,
+      "client_request_id": "bef7ae61b7ffb01979b17b9e4210ec1c75eda7d25ae72fd0810f73c5667c694a",
+      "provider_request_id": "req_6444058958b5425494838764f05e4640",
+      "response_id": "resp_072ea12edcd37720016af68c2239c887d2a9dbfd61a8c6fe3b",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 548,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 181,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 729
+      },
+      "conservative_nano": 1225500,
+      "published_price_nano": 1225500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--en--r2--mini",
+      "slot": 2,
+      "client_request_id": "bfd4bbfbf943165acce359d6780bd95ca368f0077566e708bebe109080069420",
+      "provider_request_id": "req_18b6171745634831b4d65a778b0fbac9",
+      "response_id": "resp_0f0d0ca3801ac80d016af68bbb2ca087d28a4dd5a0ecfcddaf",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 924,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 930
+      },
+      "conservative_nano": 720000,
+      "published_price_nano": 720000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--vi--r3--mini",
+      "slot": 2,
+      "client_request_id": "c40bb59cfec5ce3bee189d322c51d752d4db563c770d1c85c5316c7432cc32e8",
+      "provider_request_id": "req_1777a6419a584b7089d75141380b4537",
+      "response_id": "resp_0556f4a4bd56bca2016af691385c0487d2a995e7b74d34ed0a",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 989,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 20,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1009
+      },
+      "conservative_nano": 831750,
+      "published_price_nano": 831750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--vi--r2--mini",
+      "slot": 1,
+      "client_request_id": "c662b16d571955e3594fb68b2ad107791e8d735c5d7c0b68361b600f96ad80d7",
+      "provider_request_id": "req_c26c57c445e1403aa227b4ee255fe020",
+      "response_id": "resp_02b24fe9cfe006b8016af68bc250d487d2bf1eb499c3a85c48",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 556,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 352,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 908
+      },
+      "conservative_nano": 2001000,
+      "published_price_nano": 2001000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--vi--r3--mini",
+      "slot": 1,
+      "client_request_id": "c770472225257131904dda210d33f26b3432ac54295a9bad22d187e7a8616731",
+      "provider_request_id": "req_b4c81fc71318447fb3b34303d2a1c323",
+      "response_id": "resp_0230de109b55b4ba016af690e0181087d2953ed030f2fa54c4",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 609,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 357,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 966
+      },
+      "conservative_nano": 2063250,
+      "published_price_nano": 2063250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--vi--r1--mini",
+      "slot": 1,
+      "client_request_id": "ca9c306df0ce4b4a8cb8a3baa21446af9b3671e66677a8d888788bca49e6985f",
+      "provider_request_id": "req_d6c3af6eedae48fb850b2525a3571ba7",
+      "response_id": "resp_03a19ef300124f29016af68b3ff53487d293ea88a67f29de58",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 548,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 164,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 712
+      },
+      "conservative_nano": 1149000,
+      "published_price_nano": 1149000
+    },
+    {
+      "run_id": "stage11-smoke-001",
+      "trial_id": "b001-vn-invoice--en--r1--mini",
+      "slot": 1,
+      "client_request_id": "ce403cdf187211b3652f4527aefe897d17511c0cb9e45ceccfafef9eeb20551b",
+      "provider_request_id": "req_d6c2c354af97454ab06427d815bc6340",
+      "response_id": "resp_07dc611129f2f684016af688bebc9887d2885ba6261c5c6191",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 678,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 583,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1261
+      },
+      "conservative_nano": 3132000,
+      "published_price_nano": 3132000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--en--r2--mini",
+      "slot": 1,
+      "client_request_id": "d380075c6c0fb0a15fad611cee5f0f3c1ff5bb5ebbc348a1c98793e5d969fc69",
+      "provider_request_id": "req_59b445ab17e74acdae21996c4c15456a",
+      "response_id": "resp_062647e2940b1616016af68c0807dc87d296b76eb0e56c5f3a",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 543,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "output_tokens": 387,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 930
+      },
+      "conservative_nano": 2148750,
+      "published_price_nano": 2148750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--en--r3--mini",
+      "slot": 2,
+      "client_request_id": "d64195763fc14424721f38340299f54afbbf3a26818d747c6adc4247ca08506e",
+      "provider_request_id": "req_448d4627cbcb490f81bd53cb93f5bae9",
+      "response_id": "resp_02fadfea4ed08d41016af69109dcf487d2b85cb34224317a4a",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 896,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 902
+      },
+      "conservative_nano": 699000,
+      "published_price_nano": 699000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--vi--r3--mini",
+      "slot": 1,
+      "client_request_id": "da4b3952242c54b8c96723f29727ea6da57d8fd366c00b9f2112044485245295",
+      "provider_request_id": "req_016cc3c80cdd4ed9ae3f5a7a11a77acc",
+      "response_id": "resp_0556f4a4bd56bca2016af69132abf887d2b72740c45bb30e15",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 574,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 368,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 942
+      },
+      "conservative_nano": 2086500,
+      "published_price_nano": 2086500
+    },
+    {
+      "run_id": "stage11-smoke-001",
+      "trial_id": "b001-vn-invoice--vi--r1--mini",
+      "slot": 2,
+      "client_request_id": "db51ee91b373f64ad60c5f9e218ed0d4759fef7d0d2f84d60c9a14c2d71ff75f",
+      "provider_request_id": "req_7c1dbf96792743d181263b31c024a2a1",
+      "response_id": "resp_0b61e51c2b8bad40016af688d8f60487d29ff5b553208409c3",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1600,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 79,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1679
+      },
+      "conservative_nano": 1555500,
+      "published_price_nano": 1555500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--en--r1--mini",
+      "slot": 2,
+      "client_request_id": "e4c07116998648e4779c2f76a2db979b18fb65bff194a33cad5befbb142135ad",
+      "provider_request_id": "req_5fe387f2963b4c08ad34bdbedcd5f365",
+      "response_id": "resp_0727c34a49eb030f016af68b5163f487d2beecfe397342fc58",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 934,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 940
+      },
+      "conservative_nano": 727500,
+      "published_price_nano": 727500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--vi--r3--mini",
+      "slot": 2,
+      "client_request_id": "e539c38947806ec2e0ea74309e08d06b8265bcdd758feb9dea71634d08e48037",
+      "provider_request_id": "req_b6e77f5c012c44fd8a1c594e3f82244d",
+      "response_id": "resp_0eed1d56a1b8f28d016af68c5aaa6487d29a19025e4eb8adbf",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 812,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 830
+      },
+      "conservative_nano": 690000,
+      "published_price_nano": 690000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--en--r1--mini",
+      "slot": 1,
+      "client_request_id": "e83592d6ec9d9f038f98f92611a561d58f982de3453be089ca44a07315ca04b5",
+      "provider_request_id": "req_35ce86c45bcd437fa5af1156c306abed",
+      "response_id": "resp_01e4713552dddde3016af68ba8ef7887d2b2d6e6ffdab69dbd",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 586,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 301,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 887
+      },
+      "conservative_nano": 1794000,
+      "published_price_nano": 1794000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--en--r2--mini",
+      "slot": 2,
+      "client_request_id": "e99d51482ee0ca46fbb2f9638e2a0836998f4676c28dcdd64f08b591a7b55c0a",
+      "provider_request_id": "req_c014b787efb44c049520eab318f43063",
+      "response_id": "resp_0c8233988854dad0016af68be2391887d2ad2752f18c6308fd",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1020,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1026
+      },
+      "conservative_nano": 792000,
+      "published_price_nano": 792000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--vi--r3--mini",
+      "slot": 2,
+      "client_request_id": "ee55fd47ad64f5b1c88d99df48d4a681fade0ff02c0bce8ac1c78c16573ce6fa",
+      "provider_request_id": "req_bd80393a23654e2f858d30f84857c5c4",
+      "response_id": "resp_0a0e98e116b06fca016af69120429487d2b809205f81132443",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1405,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1436
+      },
+      "conservative_nano": 1193250,
+      "published_price_nano": 1193250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--en--r3--mini",
+      "slot": 1,
+      "client_request_id": "ef3db55185f596fd52a644f82848648784639bb32446e25209137412dfcf4e0b",
+      "provider_request_id": "req_9d86b601502f436a94b95d5e8135e77d",
+      "response_id": "resp_02fadfea4ed08d41016af6910545b087d29c6a2e4e699a3ee8",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 508,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 329,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 837
+      },
+      "conservative_nano": 1861500,
+      "published_price_nano": 1861500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--vi--r2--mini",
+      "slot": 2,
+      "client_request_id": "f07579e38503ab6da9f281ab0b7bed1d65e685acd2066af83e4ec1b21b7abf7a",
+      "provider_request_id": "req_43cac9208773414aae879b50fa831776",
+      "response_id": "resp_02b24fe9cfe006b8016af68bc7cb8887d2b9a25a4f08cc7489",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 964,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 17,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 981
+      },
+      "conservative_nano": 799500,
+      "published_price_nano": 799500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b006-vietnamese-csv-export--vi--r1--mini",
+      "slot": 1,
+      "client_request_id": "f0f0ddf4a92e0210b0ce8a6677f913f5523f7d5188550813b2641d335b086895",
+      "provider_request_id": "req_c5825fc14c29467ab746b01956bddf74",
+      "response_id": "resp_024e8e2222ccfbb4016af68b7277bc87d292c641dc0bd73585",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 609,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 352,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 961
+      },
+      "conservative_nano": 2040750,
+      "published_price_nano": 2040750
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b003-windows1258--vi--r2--mini",
+      "slot": 1,
+      "client_request_id": "f4905fa7c0fd5669d9bce7e9adf2d9c2847061a1fd4aa306f55c825a35e4879b",
+      "provider_request_id": "req_de2b4bc03f844ffc9747b649585ca9db",
+      "response_id": "resp_0c476316d84c85cc016af68be9560487d2927b2d50b79e03fb",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 574,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 601,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1175
+      },
+      "conservative_nano": 3135000,
+      "published_price_nano": 3135000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b001-vn-invoice--en--r2--mini",
+      "slot": 1,
+      "client_request_id": "f8df1cef46ba044cd42f151be39a3b93269c6925db3dac61c0070361d837de15",
+      "provider_request_id": "req_70d10a47b0cf4690bf46c9dc662086f6",
+      "response_id": "resp_0c14e583cc572bba016af68c486cec87d2a1933e5aa2c127c6",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 678,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 604,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1282
+      },
+      "conservative_nano": 3226500,
+      "published_price_nano": 3226500
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b005-vietnamese-collation--en--r1--mini",
+      "slot": 2,
+      "client_request_id": "fb38c57dd0a0875ae1f5fb8ce823e15a0123dbc3c6a8e7927e48ab4e9bdebfcc",
+      "provider_request_id": "req_0946b5f041844d28b940062dcb1af4cc",
+      "response_id": "resp_0a54afeb53f58534016af68b393b5487d2b1c7c6ff654b5a64",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 711,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 717
+      },
+      "conservative_nano": 560250,
+      "published_price_nano": 560250
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b004-accent-search--vi--r3--mini",
+      "slot": 1,
+      "client_request_id": "fce637e77ff68acfefb160c976d426aee3b4fd2d292502621672e7810d8032a7",
+      "provider_request_id": "req_595fbd649bc14591babc9261705b9249",
+      "response_id": "resp_00e3387e35417870016af691100c2087d2a4cf7005971916a5",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 556,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 346,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 902
+      },
+      "conservative_nano": 1974000,
+      "published_price_nano": 1974000
+    },
+    {
+      "run_id": "stage11-development-001",
+      "trial_id": "b002-unicode-files--en--r3--mini",
+      "slot": 3,
+      "client_request_id": "fd61370f58d4f18c79531d9a149100f9bf4bcbbe75eddc6c2e37f4a21879c7b9",
+      "provider_request_id": "req_37efcf174672495eb52cdc79b6f7a0d0",
+      "response_id": "resp_093d216c7505ecb8016af690f3daa487d2896d000eee6c5c05",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "usage": {
+        "input_tokens": 1263,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1269
+      },
+      "conservative_nano": 974250,
+      "published_price_nano": 974250
+    }
+  ]
+}

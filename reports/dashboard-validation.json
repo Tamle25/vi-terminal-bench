@@ -1,0 +1,67 @@
+{
+  "schema": "vi-dashboard-validation/1",
+  "client_date": "2026-11-13",
+  "url": "http://127.0.0.1:8765",
+  "mode": "local-live",
+  "server_read_only": false,
+  "unit_tests": {
+    "tests_run": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "log": "test_active_job_and_untrusted_actions_rejected (test_dashboard.DashboardTests.test_active_job_and_untrusted_actions_rejected) ... ok\ntest_budget_inspection_never_mutates_ledger (test_dashboard.DashboardTests.test_budget_inspection_never_mutates_ledger) ... ok\ntest_frozen_cli_sources_and_public_inputs_unchanged (test_dashboard.DashboardTests.test_frozen_cli_sources_and_public_inputs_unchanged) ... ok\ntest_large_real_result_event_survives_and_csv_has_bom (test_dashboard.DashboardTests.test_large_real_result_event_survives_and_csv_has_bom) ... ok\ntest_no_shell_or_credentials_forwarded_to_worker (test_dashboard.DashboardTests.test_no_shell_or_credentials_forwarded_to_worker) ... ok\ntest_preview_executes_without_model_or_linux (test_dashboard.DashboardTests.test_preview_executes_without_model_or_linux) ... ok\ntest_restart_marks_running_as_interrupted_without_replay (test_dashboard.DashboardTests.test_restart_marks_running_as_interrupted_without_replay) ... ok\ntest_resume_preserves_original_run_identity (test_dashboard.DashboardTests.test_resume_preserves_original_run_identity) ... ok\ntest_export_and_utf8_html (test_dashboard.HTTPTests.test_export_and_utf8_html) ... ok\ntest_host_origin_token_and_read_only_guards (test_dashboard.HTTPTests.test_host_origin_token_and_read_only_guards) ... ok\ntest_state_real_baseline_and_private_paths_not_served (test_dashboard.HTTPTests.test_state_real_baseline_and_private_paths_not_served) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 2.073s\n\nOK\n"
+  },
+  "javascript_syntax": "node --check passed",
+  "real_unpaid_http_actions": [
+    "preview",
+    "check",
+    "status",
+    "report"
+  ],
+  "real_report_rows_equal_baseline": true,
+  "native_ledger_request_intents": 86,
+  "native_ledger_uncertain_requests": 0,
+  "new_dashboard_model_runs": 0,
+  "new_model_provider_calls": 0,
+  "latest_readonly_ledger": {
+    "currency": "USD",
+    "origin": "real",
+    "inference_exposure_nano": 134922000,
+    "compute_exposure_nano": 0,
+    "external_exposure_nano": 110000000,
+    "total_exposure_nano": 244922000,
+    "available_nano": 1755078000,
+    "uncertain_requests": 0
+  },
+  "frozen_cli_sources_and_219_public_inputs_unchanged": true,
+  "browser": {
+    "engine": "Chrome headless via frontend skill scripts",
+    "screenshots": [
+      1440,
+      1024,
+      768,
+      390,
+      320
+    ],
+    "filtered_mobile_result": "B002 EN repeat 1 reward 0 shown as the single matching row",
+    "perf": "PASS at 1440 and 390; 0 FAIL, 0 WARN",
+    "design_gate": "GATE: OPEN 32 (rounds used up)",
+    "design_gate_report": "dashboard/QA.md",
+    "paid_actions_disabled_during_browser_qa": true
+  },
+  "source_sha256": {
+    "dashboard/DESIGN.md": "6380b9124c01ae316224641325744c6c93fbd8f3907fe5a5f76e67b5eb63fb3d",
+    "dashboard/README.md": "8479da416cb432e949e039467133fb9d8db726be95079a1208aca925087c4196",
+    "dashboard/server.py": "5c1487ac4d32c66dafd2afccb28390d10083e065bb20797a035d00130a689d5a",
+    "dashboard/start-dashboard.ps1": "683300582d2745616b9856c9d0bf8e46bb4935e176d35b921462d0942e586877",
+    "dashboard/worker.py": "84fceb9e7f0e945367fcadd6407a633c5d9e7af5070317ceb8ed2b780c4d2fc3",
+    "dashboard/static/app.js": "1c7ef42eb5d48a11e67e8a6f1fa8065b27b5d556cf158f88024be492210e89cd",
+    "dashboard/static/favicon.svg": "99f77c96297b0053f3545d04c5316acc809d1c1dec6031434c7e80d39736d473",
+    "dashboard/static/index.html": "4e94039b4caa15c27e38d47306d011799bbdc5b82688b8ce0b9011905fcfdf81",
+    "dashboard/static/style.css": "2acb82674750e901ff7852725430dfcb5bc93227101c56a3b0f2507a2a7486e9",
+    "dashboard/tests/test_dashboard.py": "56258a0764234a1c849f2e5141145f651f15f037bd663288aa4c58ebcfb33b5d"
+  },
+  "credential_archived": false,
+  "credential_value_read_by_dashboard_qa": false
+}

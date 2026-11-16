@@ -1,0 +1,87 @@
+{
+  "schema": "vi-stage6-input/0.1",
+  "run_id": "stage6-offline-engineering",
+  "scope": "offline-engineering",
+  "recorded_at_utc": "2026-11-12T08:46:26.548672+00:00",
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "stage5_evidence_sha256": {
+    "jobs/stage5-scoped-executor.tar.gz": "e9445dbf2cd16da2c3aa85b8a1ce1de5457623b79b78274f0baa9925079c0207",
+    "reports/stage5-fixture-trials.jsonl": "68ba3e5e7b5c9489f64a4df5be0623fedabf171fe079e33efc65ad8f55f65e0d",
+    "reports/stage5-input-state.json": "7d252e55c86cc787e395c3a73520d866541412b4ff7912e5dde3fe63a01d789f",
+    "reports/stage5-model-readiness-current.json": "a24eb7cdf3598b0e210f5b451dea7624d5b8e8bbff3a388dd66dca5b5601c960",
+    "reports/stage5-model-readiness.json": "afe7727526677dce8ae36c4a39fe15e205b5b4ac4f794cf219912ece33ea8183",
+    "reports/stage5-offline-summary.json": "00539598acf4ca9528b8c0f488f5881e487992c7b5db43f498b8d634512c6c79",
+    "reports/stage5-summary.json": "b597c4f69cba3d56011642bbbb223d4ab72b96d9e2f726aa5abc97b248c970d0",
+    "reports/stage5-unit-tests.json": "d5c7834938637b9364c5cc255dd7042691aa8c157645e117ed8c32a7b4fb5994"
+  },
+  "missing_profile_fields": [
+    "budget.max_inference_usd",
+    "budget.max_compute_usd",
+    "budget.smoke_max_usd",
+    "candidate-a.agent",
+    "candidate-a.agent_version",
+    "candidate-a.model",
+    "candidate-a.provider",
+    "candidate-a.endpoint",
+    "candidate-a.reasoning_effort",
+    "candidate-a.system_prompt_path",
+    "candidate-a.max_tokens",
+    "candidate-a.max_turns",
+    "candidate-a.timeout_sec",
+    "candidate-a.architecture",
+    "candidate-a.credential_env_name",
+    "candidate-b.agent",
+    "candidate-b.agent_version",
+    "candidate-b.model",
+    "candidate-b.provider",
+    "candidate-b.endpoint",
+    "candidate-b.reasoning_effort",
+    "candidate-b.system_prompt_path",
+    "candidate-b.max_tokens",
+    "candidate-b.max_turns",
+    "candidate-b.timeout_sec",
+    "candidate-b.architecture",
+    "candidate-b.credential_env_name"
+  ],
+  "review_accepted": 0,
+  "review_total": 6,
+  "states": [
+    {
+      "name": "historical_evidence",
+      "status": "pass",
+      "source": "stage5_handoff_audit.audit"
+    },
+    {
+      "name": "review",
+      "status": "missing_input",
+      "source": "configs/review-records.stage5.template.json",
+      "next_action": "Owner assigns an independent human; existing template is not acceptance"
+    },
+    {
+      "name": "model_budget_and_billing_scope",
+      "status": "missing_input",
+      "source": "configs/model-pilot.template.json",
+      "next_action": "Supply two concrete configurations, caps and actual billing scope/account references"
+    },
+    {
+      "name": "runtime_and_real_binding",
+      "status": "unverified",
+      "source": "reports/stage5-readiness.md",
+      "next_action": "Select and verify runtime, adapter, isolation, usage and provider-specific recovery"
+    },
+    {
+      "name": "part_A",
+      "status": "missing_input",
+      "source": "docs/eval-input-checklist.md",
+      "next_action": "Eval snapshot/config still unavailable"
+    },
+    {
+      "name": "publication",
+      "status": "not_applicable",
+      "source": "Plan/plan-giai-doan-6.md",
+      "next_action": "Separate owner decision"
+    }
+  ],
+  "model_calls": 0,
+  "secrets_read": false
+}

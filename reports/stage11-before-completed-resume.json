@@ -1,0 +1,66 @@
+{
+  "requests_count": 86,
+  "requests_sha256": "78b2919e0b2a8f58a20111ba088db17a02db5eeb342bc1ab3e07f138be82654d",
+  "real_provider_receipts": 85,
+  "conservative_estimate_nano": 134922000,
+  "published_price_estimate_nano": 133971600,
+  "cancelled_before_network": 1,
+  "summary": {
+    "schema": "vi-development-report/1",
+    "scope": "development-batch",
+    "run_id": "stage11-development-001",
+    "development_only": true,
+    "data_origin": "real-model",
+    "independently_reviewed": false,
+    "planned_trials": 36,
+    "valid_trials": 36,
+    "missing_trials": [],
+    "infra_trials": [],
+    "complete": true,
+    "scores": {
+      "en": {
+        "tasks": {
+          "b001-vn-invoice": 1,
+          "b002-unicode-files": 0.6666666666666666,
+          "b003-windows1258": 1,
+          "b004-accent-search": 1,
+          "b005-vietnamese-collation": 1,
+          "b006-vietnamese-csv-export": 1
+        },
+        "macro": 0.9444444444444444
+      },
+      "vi": {
+        "tasks": {
+          "b001-vn-invoice": 1,
+          "b002-unicode-files": 1,
+          "b003-windows1258": 1,
+          "b004-accent-search": 1,
+          "b005-vietnamese-collation": 1,
+          "b006-vietnamese-csv-export": 1
+        },
+        "macro": 1
+      }
+    },
+    "delta_vi_pp": 5.555555555555558,
+    "ci95": null,
+    "ci_reason": "one family per skill; insufficient independent replication",
+    "conservative_token_estimate_usd": 0.11385825,
+    "cost_unknown_trials": [],
+    "invoice_usd": null,
+    "compute_cost_status": "not_metered",
+    "compute_cost_usd": null,
+    "ledger": {
+      "currency": "USD",
+      "origin": "real",
+      "inference_exposure_nano": 134922000,
+      "compute_exposure_nano": 0,
+      "external_exposure_nano": 110000000,
+      "total_exposure_nano": 244922000,
+      "available_nano": 1755078000,
+      "uncertain_requests": 0
+    },
+    "technical_smoke_passed": false,
+    "configuration": "gpt54-mini-host-development-v1",
+    "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288"
+  }
+}

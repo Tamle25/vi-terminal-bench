@@ -1,0 +1,31 @@
+{
+  "recorded_at_utc": "2026-11-13T03:13:57.302803+00:00",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "docker_cli": "/usr/bin/docker",
+  "environment_override_names": [],
+  "probes": {
+    "cli_version": {
+      "returncode": 0,
+      "timed_out": false,
+      "elapsed_sec": 0.03217790700000478,
+      "stdout": "{\"Platform\":{\"Name\":\"Docker Desktop 4.0.0 ()\"},\"Components\":[{\"Name\":\"Engine\",\"Version\":\"28.1.1\",\"Details\":{\"ApiVersion\":\"1.49\",\"Arch\":\"amd64\",\"BuildTime\":\"Fri Apr 18 09:52:57 2025\",\"Experimental\":\"false\",\"GitCommit\":\"01f442b\",\"GoVersion\":\"go1.23.8\",\"KernelVersion\":\"6.6.87.2-microsoft-standard-WSL2\",\"MinAPIVersion\":\"1.24\",\"Os\":\"linux\"}},{\"Name\":\"containerd\",\"Version\":\"1.7.27\",\"Details\":{\"GitCommit\":\"05044ec0a9a75232cad458027ca83437aae3f4da\"}},{\"Name\":\"runc\",\"Version\":\"1.2.5\",\"Details\":{\"GitCommit\":\"v1.2.5-0-g59923ef\"}},{\"Name\":\"docker-init\",\"Version\":\"0.19.0\",\"Details\":{\"GitCommit\":\"de40ad0\"}}],\"Version\":\"28.1.1\",\"ApiVersion\":\"1.49\",\"MinAPIVersion\":\"1.24\",\"GitCommit\":\"01f442b\",\"GoVersion\":\"go1.23.8\",\"Os\":\"linux\",\"Arch\":\"amd64\",\"KernelVersion\":\"6.6.87.2-microsoft-standard-WSL2\",\"BuildTime\":\"2025-04-18T09:52:57.000000000+00:00\"}\n",
+      "stderr": ""
+    },
+    "cli_context": {
+      "returncode": 0,
+      "timed_out": false,
+      "elapsed_sec": 0.016063068999997654,
+      "stdout": "default\n",
+      "stderr": ""
+    },
+    "unix_api": {
+      "status": 200,
+      "version": "28.1.1",
+      "os": "linux",
+      "elapsed_sec": 0.009481968000002894
+    }
+  },
+  "resolved_cli": "/mnt/wsl/docker-desktop/cli-tools/usr/bin/docker",
+  "executable_magic_hex": "7f454c46",
+  "unix_socket_present": true
+}

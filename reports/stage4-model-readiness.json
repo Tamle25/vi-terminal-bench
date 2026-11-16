@@ -1,0 +1,99 @@
+{
+  "schema": "vi-pilot-readiness/0.1",
+  "recorded_at_utc": "2026-11-12T07:39:27.080085+00:00",
+  "scope": "native-pilot",
+  "run_id": "native-model-pilot",
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "ready_for_dispatch": false,
+  "authorization_token": false,
+  "checks": [
+    {
+      "name": "model_profile",
+      "status": "missing_input",
+      "reason": "Model/agent/budget fields missing",
+      "evidence": [
+        "budget.max_inference_usd",
+        "budget.max_compute_usd",
+        "budget.smoke_max_usd",
+        "candidate-a.agent",
+        "candidate-a.agent_version",
+        "candidate-a.model",
+        "candidate-a.provider",
+        "candidate-a.endpoint",
+        "candidate-a.reasoning_effort",
+        "candidate-a.system_prompt_path",
+        "candidate-a.max_tokens",
+        "candidate-a.max_turns",
+        "candidate-a.timeout_sec",
+        "candidate-a.architecture",
+        "candidate-a.credential_env_name",
+        "candidate-b.agent",
+        "candidate-b.agent_version",
+        "candidate-b.model",
+        "candidate-b.provider",
+        "candidate-b.endpoint",
+        "candidate-b.reasoning_effort",
+        "candidate-b.system_prompt_path",
+        "candidate-b.max_tokens",
+        "candidate-b.max_turns",
+        "candidate-b.timeout_sec",
+        "candidate-b.architecture",
+        "candidate-b.credential_env_name"
+      ],
+      "next_action": "Fill only decisions actually supplied by owner"
+    },
+    {
+      "name": "independent_review",
+      "status": "missing_input",
+      "reason": "Snapshot-bound independent review coverage",
+      "evidence": {
+        "schema": "vi-review-coverage/0.1",
+        "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+        "accepted_count": 0,
+        "total_tasks": 6,
+        "accepted_tasks": [],
+        "pending_tasks": [
+          "b001-vn-invoice",
+          "b002-unicode-files",
+          "b003-windows1258",
+          "b004-accent-search",
+          "b005-vietnamese-collation",
+          "b006-vietnamese-csv-export"
+        ],
+        "identity_note": "Record consistency check; does not authenticate a human identity or create authorization"
+      },
+      "next_action": "Obtain actual human review records; do not auto-accept"
+    },
+    {
+      "name": "runtime",
+      "status": "missing_input",
+      "reason": "No explicit runtime profile selected",
+      "evidence": null,
+      "next_action": "Choose an operating profile, then capture fresh run-scoped evidence; no fallback"
+    },
+    {
+      "name": "effective_adapter",
+      "status": "unverified",
+      "reason": "Real agent mapping must match both profiles and runtime",
+      "evidence": null,
+      "next_action": "Verify the concrete selected adapter; simulated mapping is insufficient"
+    },
+    {
+      "name": "budget",
+      "status": "missing_input",
+      "reason": "Real estimates, caps and available reservation required",
+      "evidence": null,
+      "next_action": "Supply current pricing/ledger evidence; simulation currency never pays a real run"
+    },
+    {
+      "name": "execution_manifest",
+      "status": "unverified",
+      "reason": "Frozen model manifest must match current snapshot and planned scope; preview is not executable",
+      "evidence": null,
+      "next_action": "Prepare concrete execution manifest after profile/review/runtime choices"
+    }
+  ],
+  "model_calls": 0,
+  "preview_trial_count": 72,
+  "note": "Evidence coherence gate only; real provider executor is not implemented/enabled by this command"
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "vi-development-failure-analysis/1",
+  "provider_calls": 0,
+  "cases": [
+    {
+      "trial_id": "b002-unicode-files--en--r1--mini",
+      "original_reward": 0,
+      "offline_regrade": {
+        "status": "verified",
+        "reward": 0,
+        "checks": {
+          "passed": false,
+          "reason": "Missing/unreadable artifact: output/files/0001--Báo cáo.txt"
+        }
+      },
+      "original_outcome_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schema":"vi-runtime-profiles/0.1",
+  "selected_runtime_profile":null,
+  "profiles":[
+    {"id":"native-wsl-v1","version":1,"mode":"native-wsl","distro":"Ubuntu-22.04","user":"tamle","endpoint_class":"wsl-default-docker","verifier_network":"none","control_socket_in_sandbox":false,"cli_timeout_sec":10,"validated_concurrency":1},
+    {"id":"desktop-relay-v1","version":1,"mode":"scoped-relay","distro":"Ubuntu-22.04","user":"tamle","endpoint_class":"desktop-distro-proxy-command-only","verifier_network":"none","control_socket_in_sandbox":false,"cli_timeout_sec":10,"validated_concurrency":1}
+  ],
+  "note":"Definitions only; no runtime selected for model execution. Relay requires explicit operating choice, fresh capture and command-only cleanup. No silent fallback."
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "vi-execution-readiness/0.1",
+  "recorded_at_utc": "2026-11-13T01:34:31.222537+00:00",
+  "run_id": "native-model-pilot",
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "scope": "native-pilot",
+  "mode": "model",
+  "checks": [
+    {
+      "name": "profile",
+      "status": "missing_input",
+      "reason": "Required profile fields must be supplied"
+    },
+    {
+      "name": "origin",
+      "status": "pass",
+      "reason": "Fixture/model boundaries must agree"
+    },
+    {
+      "name": "manifest",
+      "status": "unverified",
+      "reason": "Generated preview only; actual frozen execution manifest not supplied"
+    },
+    {
+      "name": "independent_review",
+      "status": "missing_input",
+      "reason": "Pilot needs 6/6; smoke needs its selected tasks; fixtures are not human reviews"
+    },
+    {
+      "name": "runtime",
+      "status": "unverified",
+      "reason": "Fresh selected runtime attestation for this exact run/snapshot required"
+    },
+    {
+      "name": "effective_adapter",
+      "status": "unverified",
+      "reason": "Adapter-observed settings and provenance must match expected contract"
+    },
+    {
+      "name": "budget",
+      "status": "missing_input",
+      "reason": "Scope-bound caps, current source and sufficient known reservation required"
+    },
+    {
+      "name": "provider_binding",
+      "status": "unverified",
+      "reason": "Only a durable offline fixture binding is installed; real provider binding absent"
+    }
+  ],
+  "ready_for_dispatch": false,
+  "ready_for_model_dispatch": false,
+  "authorization_token": false,
+  "model_calls": 0,
+  "secrets_read": false,
+  "note": "Fixture checks validate orchestration only; no real provider binding installed",
+  "manifest_source": "generated-preview-not-executable"
+}

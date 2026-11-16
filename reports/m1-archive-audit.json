@@ -1,0 +1,17 @@
+{
+  "kind": "m1-archive-restore-audit",
+  "archive_sha256": "5b773351699330f17617edce85454e13bd507fe22ec0733337aa7b25d1345450",
+  "all_matched": true,
+  "jobs": [
+    {
+      "job": "m1-oracle-linux",
+      "trials": 6,
+      "matched": true
+    },
+    {
+      "job": "m1-nop-linux",
+      "trials": 2,
+      "matched": true
+    }
+  ]
+}

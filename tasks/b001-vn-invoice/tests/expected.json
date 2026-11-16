@@ -1,0 +1,18 @@
+{
+  "records": [
+    {"invoice_id":"INV001","customer_name":"Đặng Đình Tâm","invoice_date":"2026-01-02","amount_vnd":1000000},
+    {"invoice_id":"INV002","customer_name":"Nguyễn Văn Ước","invoice_date":"2024-02-29","amount_vnd":0},
+    {"invoice_id":"INV003","customer_name":"Công ty Hoa, Việt","invoice_date":"2025-12-31","amount_vnd":2500},
+    {"invoice_id":"INV004","customer_name":"Đỗ Thị Ánh","invoice_date":"2026-01-01","amount_vnd":123},
+    {"invoice_id":"INV009","customer_name":"Hồ Ngọc","invoice_date":"2026-12-01","amount_vnd":10000},
+    {"invoice_id":"INV010","customer_name":"Đặng Thị Hồng","invoice_date":"2026-04-03","amount_vnd":1234567}
+  ],
+  "errors": [
+    {"row_number":6,"reason":"invalid_date"},
+    {"row_number":7,"reason":"invalid_amount"},
+    {"row_number":8,"reason":"invalid_date"},
+    {"row_number":9,"reason":"invalid_date"},
+    {"row_number":12,"reason":"invalid_date"},
+    {"row_number":13,"reason":"invalid_amount"}
+  ]
+}

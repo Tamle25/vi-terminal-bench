@@ -1,0 +1,17 @@
+{
+  "data/sources.json": {
+    "utf8": "[\n  {\n    \"file\": \"01.bin\",\n    \"encoding\": \"windows-1258\"\n  },\n  {\n    \"file\": \"02.bin\",\n    \"encoding\": \"windows-1258\"\n  },\n  {\n    \"file\": \"03.bin\",\n    \"encoding\": \"windows-1258\"\n  },\n  {\n    \"file\": \"04.bin\",\n    \"encoding\": \"windows-1258\"\n  }\n]\n"
+  },
+  "data/01.bin": {
+    "hex": "d0e3f26e672048f4cc6e670d0a"
+  },
+  "data/02.bin": {
+    "hex": "f0f56e2096205669eaf2740a"
+  },
+  "data/03.bin": {
+    "hex": ""
+  },
+  "data/04.bin": {
+    "hex": "62616481"
+  }
+}

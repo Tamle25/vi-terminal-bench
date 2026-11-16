@@ -1,0 +1,65 @@
+{
+  "kind": "scoped-proxy-oracle-smoke-not-model-evaluation",
+  "all_passed": true,
+  "timings": [
+    {
+      "task_id": "b005-vietnamese-collation",
+      "repeat": 1,
+      "duration_sec": 37.550754,
+      "phases": {
+        "environment_setup": 5.412499,
+        "agent_setup": 6e-05,
+        "agent_execution": 0.860487,
+        "verifier": 20.072489
+      },
+      "separate_verifier": true,
+      "reward": 1
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "repeat": 1,
+      "duration_sec": 42.584258,
+      "phases": {
+        "environment_setup": 12.901906,
+        "agent_setup": 0.000154,
+        "agent_execution": 1.000621,
+        "verifier": 14.86669
+      },
+      "separate_verifier": true,
+      "reward": 1
+    },
+    {
+      "task_id": "b005-vietnamese-collation",
+      "repeat": 2,
+      "duration_sec": 31.209493,
+      "phases": {
+        "environment_setup": 2.740617,
+        "agent_setup": 6.5e-05,
+        "agent_execution": 0.715912,
+        "verifier": 16.191417
+      },
+      "separate_verifier": true,
+      "reward": 1
+    },
+    {
+      "task_id": "b006-vietnamese-csv-export",
+      "repeat": 2,
+      "duration_sec": 30.693599,
+      "phases": {
+        "environment_setup": 2.822168,
+        "agent_setup": 4.8e-05,
+        "agent_execution": 0.622424,
+        "verifier": 16.126261
+      },
+      "separate_verifier": true,
+      "reward": 1
+    }
+  ],
+  "condition_note": {
+    "1": "first-in-session-preexisting-image-cache-not-cold",
+    "2": "reuse-images-fresh-containers"
+  },
+  "default_wsl_socket_repaired": false,
+  "proxy_lifetime": "command-only",
+  "archive": "/mnt/d/Xay dung tuong tu bo Terminal-Bench/jobs/stage3-targeted-smoke.tar.gz"
+}

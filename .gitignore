@@ -1,0 +1,13 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+jobs/
+build/
+.dashboard/
+.taste-skill/
+*.egg-info/
+graphify-out/

@@ -1,0 +1,32 @@
+{
+  "schema": "vi-dashboard-resume-preflight/1",
+  "passed": true,
+  "same_frozen_run": "dashboard-batch-b3d81899e99c",
+  "retained_valid_trials": 10,
+  "unsubmitted_trials": 26,
+  "next_trial_id": "b002-unicode-files--vi--r1--mini",
+  "real_development_gate_checks": 5,
+  "gate_reasons": [
+    "pass",
+    "pass",
+    "pass",
+    "pass",
+    "pass"
+  ],
+  "runtime_clock": {
+    "policy": "dashboard-boottime-utc-v1",
+    "scope": "process-local-runtime-capture-and-validation",
+    "utc_anchor": "2026-11-13T07:40:33.649792+00:00",
+    "boottime_anchor_ns": 13353059801729,
+    "clock": "CLOCK_BOOTTIME",
+    "includes_suspend": true,
+    "pid": 24784,
+    "boot_id": "2122b580-7962-4fb7-b51a-7382b34e8506",
+    "adapter_sha256": "99850e6d3dfc4a10b5d920d2766c4538fceba72daecd9a68fd41998dd6027f38",
+    "original_validator_and_ttl_unchanged": true,
+    "system_clock_modified": false
+  },
+  "new_provider_requests": 0,
+  "credential_value_read": false,
+  "run_contract_changed": false
+}

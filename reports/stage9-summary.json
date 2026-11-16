@@ -1,0 +1,105 @@
+{
+  "schema": "vi-stage9-summary/1",
+  "client_date": "2026-11-13",
+  "timezone": "Asia/Saigon",
+  "scope": "provider-connectivity",
+  "run_id": "stage9-openai-connectivity-001",
+  "milestones": {
+    "G9.1": "passed_for_connectivity",
+    "G9.2": "passed",
+    "G9.3": "not_run",
+    "G9.4": "not_run"
+  },
+  "completed_work": [
+    "W0",
+    "W1",
+    "W2_connectivity_only",
+    "W3"
+  ],
+  "remaining_work": [
+    "W4",
+    "W5",
+    "W6"
+  ],
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "historical_verified_files": 295,
+  "historical_evidence_preserved": true,
+  "unit_tests": {
+    "tests_run": 164,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "all_passed": true,
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.12.16 (main, Oct 26 2026, 14:08:45) [Clang 23.1.3 ]",
+    "execution_workspace": "native-linux-byte-verified-copy"
+  },
+  "verified_public_test_inputs": 194,
+  "new_connectivity_tests": 14,
+  "source_sha256": {
+    "configs/stage9-connectivity.json": "9f277bf8a2269b323bffe330de2e39e729730af291ae0d208d1f6a72e3217f97",
+    "scripts/provider_connectivity_v1.py": "cab114a9c2e51468c3776b338c4b1c5bd0df9d50fe2252d2e30e41ddc7590da6",
+    "scripts/scoped_credentials.py": "ab4265006fa59ca9cb3543a3fda5b4f3b0173d8ea73c1116fea30f6be1ac3825",
+    "scripts/credential_artifacts.py": "18cbfc81b20378421d8ebe835d3c182dedd03f349ca9c0d01eb0406d5aafbeac",
+    "scripts/stage9_prepare.py": "69ff5237a23d459b9a564f612eb8323a39cf228a0b4a1692190ddcfaa1a8c8df",
+    "scripts/tests/test_provider_connectivity_v1.py": "b7e61f8ef454c4f35c262b017d6e879183f2adefb68334243fff95b44540b25a"
+  },
+  "artifact_sha256": {
+    "scripts/stage9_prepare.py": "69ff5237a23d459b9a564f612eb8323a39cf228a0b4a1692190ddcfaa1a8c8df",
+    "scripts/tests/test_provider_connectivity_v1.py": "b7e61f8ef454c4f35c262b017d6e879183f2adefb68334243fff95b44540b25a",
+    "reports/stage9-frozen-inputs.json": "b2ab96d8e6f9d729217f1b99cbd757b920b81cffcfb82141689d0e8137f62ef4",
+    "reports/stage9-unit-tests.json": "df28ffb8aa031777baac75ef6d1a92b0dd395b960df638a37833d503a1adac16",
+    "reports/provider-connectivity-stage9.json": "2bdd194237390629d6afc83e4b79ca00f8a21f8163d6ecb17ddf54fe5aa408f6",
+    "README.md": "2dd9ce44b639d3b1099e71f2e5e43d332f094c3ac5e305dc66c0bdd938a34b75",
+    "Plan/plan.md": "abfc9d7d50a9bc8b77c502f5c55d4c996fcfe5fc94baefd9769a8669d495d557",
+    "Plan/plan-giai-doan-9.md": "f696f69756ff0b8197d917fcad657410cdfd3ef0f49d217dd2ad67e497ef01b0",
+    "docs/provider-connectivity.md": "0e0891b00b8bf715f33811f7e37bf4bd827c339d1a4c366e59b70a9870caf30a",
+    "reports/stage9-run-spec.md": "ca3ae470e113ad7f3a31c2acb9ee0d163adc617e7da9bb1d109c415d9084e606",
+    "reports/provider-connectivity.md": "0fc3ec88976afb1d7941c53c7de0f5a6abf26820a03601b346ccf1a0fc4fc835",
+    "reports/stage9-readiness.md": "a3fcd46ab5430659982acc9e79e799f60c826a055c714fbfeb3993c76913a38e"
+  },
+  "evidence_archive": "reports/stage9-connectivity-evidence.zip",
+  "evidence_archive_sha256": "a0111469484cfd28d4e9e3a7b37d7151a16b149af1c1db3835949173fc5a76aa",
+  "archive_public_allowlist_verified": true,
+  "ledger_backup_restored_and_receipt_verified": true,
+  "original_ledger_unchanged_by_backup": true,
+  "private_dotenv_archived": false,
+  "credential_value_read_for_authorized_request": true,
+  "credential_fingerprint_recorded": false,
+  "real_provider_request_attempts": 1,
+  "real_model_responses_completed": 1,
+  "http_status": 200,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "usage": {
+    "input_tokens": 22,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 12,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 34
+  },
+  "currency": "USD",
+  "authorized_cap_usd": "2.00",
+  "token_price_estimate_usd": "0.0000705",
+  "authoritative_invoice_usd": null,
+  "reservation_held_usd": "0.01",
+  "connectivity_passed": true,
+  "automatic_retries": 0,
+  "benchmark_trials": 0,
+  "benchmark_scores_available": false,
+  "review_accepted": 0,
+  "review_total": 6,
+  "model_smoke_ready": false,
+  "native_pilot_ready": false,
+  "shared_multi_run_usd_ledger": false,
+  "terminal_agent_binding": false,
+  "fresh_benchmark_runtime_attestation": false,
+  "provider_project_id": null,
+  "part_A": "missing_eval_snapshot_and_configuration",
+  "publication": "not_performed",
+  "handoff_checks": "Historical and test hashes, AST, UTF-8, local links, public archive and restored ledger verified; no second provider request"
+}

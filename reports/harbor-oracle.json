@@ -1,0 +1,97 @@
+{
+  "kind": "harbor-validation-not-model-evaluation",
+  "job": "jobs/m1-oracle-vi-static-network",
+  "expected_trials": 6,
+  "observed_trials": 6,
+  "job_finished": true,
+  "all_matched": false,
+  "trials": [
+    {
+      "trial_name": "b001-vn-invoice__divfbDd",
+      "task_name": "vi-terminal/b001-vn-invoice",
+      "task_checksum": "76023de278ad29bebcb80c65985b48c2cfff6f9bbb72c374267df6b12e746764",
+      "agent": "oracle",
+      "reward": 1.0,
+      "expected_reward": 1.0,
+      "separate_verifier": true,
+      "exception": null,
+      "checks": {
+        "passed": true
+      },
+      "matched": true
+    },
+    {
+      "trial_name": "b001-vn-invoice__EY7Dq8S",
+      "task_name": "vi-terminal/b001-vn-invoice",
+      "task_checksum": "76023de278ad29bebcb80c65985b48c2cfff6f9bbb72c374267df6b12e746764",
+      "agent": "oracle",
+      "reward": 1.0,
+      "expected_reward": 1.0,
+      "separate_verifier": true,
+      "exception": null,
+      "checks": {
+        "passed": true
+      },
+      "matched": true
+    },
+    {
+      "trial_name": "b001-vn-invoice__ny7VMNB",
+      "task_name": "vi-terminal/b001-vn-invoice",
+      "task_checksum": "76023de278ad29bebcb80c65985b48c2cfff6f9bbb72c374267df6b12e746764",
+      "agent": "oracle",
+      "reward": 1.0,
+      "expected_reward": 1.0,
+      "separate_verifier": true,
+      "exception": null,
+      "checks": {
+        "passed": true
+      },
+      "matched": true
+    },
+    {
+      "trial_name": "b002-unicode-files__4opt3YZ",
+      "task_name": "vi-terminal/b002-unicode-files",
+      "task_checksum": "97b82911ebb738a286b57af8bbcb91a1324d7638a61cefb8da1ea3afd40d0836",
+      "agent": "oracle",
+      "reward": 0.0,
+      "expected_reward": 1.0,
+      "separate_verifier": true,
+      "exception": null,
+      "checks": {
+        "passed": false,
+        "reason": "Source names changed/missing"
+      },
+      "matched": false
+    },
+    {
+      "trial_name": "b002-unicode-files__xQQDTpb",
+      "task_name": "vi-terminal/b002-unicode-files",
+      "task_checksum": "97b82911ebb738a286b57af8bbcb91a1324d7638a61cefb8da1ea3afd40d0836",
+      "agent": "oracle",
+      "reward": 0.0,
+      "expected_reward": 1.0,
+      "separate_verifier": true,
+      "exception": null,
+      "checks": {
+        "passed": false,
+        "reason": "Source names changed/missing"
+      },
+      "matched": false
+    },
+    {
+      "trial_name": "b002-unicode-files__zKqmyQm",
+      "task_name": "vi-terminal/b002-unicode-files",
+      "task_checksum": "97b82911ebb738a286b57af8bbcb91a1324d7638a61cefb8da1ea3afd40d0836",
+      "agent": "oracle",
+      "reward": 0.0,
+      "expected_reward": 1.0,
+      "separate_verifier": true,
+      "exception": null,
+      "checks": {
+        "passed": false,
+        "reason": "Source names changed/missing"
+      },
+      "matched": false
+    }
+  ]
+}

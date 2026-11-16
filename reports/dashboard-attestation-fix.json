@@ -1,0 +1,48 @@
+{
+  "schema": "vi-dashboard-attestation-fix/1",
+  "client_date": "2026-11-13",
+  "run_id": "dashboard-batch-b3d81899e99c",
+  "fixed_path": "dashboard-worker-runtime",
+  "root_cause": "Strict UTC validity window rejects fresh capture when WSL wall clock steps backwards; exact per-gate timestamp was not retained",
+  "failed_trial_api_calls": 0,
+  "failed_trial_api_charge_usd": 0,
+  "new_model_calls_during_repair": 0,
+  "wall_time_regression_evidence_sec": -1.049493,
+  "runtime_clock_policy": "dashboard-boottime-utc-v1",
+  "system_clock_modified": false,
+  "unchanged_ttl_seconds": 900,
+  "includes_suspend": true,
+  "runtime_extension_source_archived_per_execution": true,
+  "original_25_harness_sources_and_219_public_inputs_unchanged": true,
+  "windows_tests": {
+    "run": 19,
+    "passed": 19
+  },
+  "linux_tests": {
+    "run": 19,
+    "passed": 19
+  },
+  "real_container_lifecycles": 12,
+  "fresh_attestation_checks": 24,
+  "real_development_gate_checks": 5,
+  "retained_valid_trials": 10,
+  "remaining_unsubmitted_trials": 26,
+  "all_request_rows_unchanged": true,
+  "same_frozen_run_contract": true,
+  "raw_failure_archived": true,
+  "runtime_job_updated": true,
+  "paid_run_automatically_resumed": false,
+  "resume_instruction": "History -> this batch -> Continue unsubmitted work",
+  "evidence": [
+    "reports/dashboard-attestation-diagnosis.json",
+    "reports/dashboard-runtime-clock-probe.json",
+    "reports/dashboard-resume-preflight.json"
+  ],
+  "source_sha256": {
+    "dashboard/runtime_clock.py": "99850e6d3dfc4a10b5d920d2766c4538fceba72daecd9a68fd41998dd6027f38",
+    "dashboard/recovery.py": "37676336a467100ef4aa61a9ca21e285541cd07211765a47c03547dd91d2a615",
+    "dashboard/worker.py": "4c93fbd7ec0db870848a6ee2fc522d37a9134536081dddfb11b304f3905e9f94",
+    "dashboard/server.py": "b39ce46ce0ec1c629faba0ab2c7549d6a351454e2ee718aacbac0e410636e7c6",
+    "dashboard/tests/test_runtime_clock.py": "954319be3fb88c924f70f4194bf7daa73c010dfabd035af291c9a7da8dc11fed"
+  }
+}

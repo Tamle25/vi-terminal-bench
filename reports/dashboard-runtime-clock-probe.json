@@ -1,0 +1,242 @@
+{
+  "schema": "vi-dashboard-runtime-clock-probe/1",
+  "passed": true,
+  "real_container_lifecycles": 12,
+  "fresh_attestation_checks_passed": 24,
+  "model_requests": 0,
+  "credential_value_read": false,
+  "clock": {
+    "policy": "dashboard-boottime-utc-v1",
+    "scope": "process-local-runtime-capture-and-validation",
+    "utc_anchor": "2026-11-13T07:38:39.596238+00:00",
+    "boottime_anchor_ns": 13234869866696,
+    "clock": "CLOCK_BOOTTIME",
+    "includes_suspend": true,
+    "pid": 24039,
+    "boot_id": "2122b580-7962-4fb7-b51a-7382b34e8506",
+    "adapter_sha256": "99850e6d3dfc4a10b5d920d2766c4538fceba72daecd9a68fd41998dd6027f38",
+    "original_validator_and_ttl_unchanged": true,
+    "system_clock_modified": false
+  },
+  "cases": [
+    {
+      "index": 1,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:39.964678+00:00",
+      "actual_system_utc": "2026-11-13T07:38:40.503009+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:40.503026+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 2,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:41.253883+00:00",
+      "actual_system_utc": "2026-11-13T07:38:41.620736+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:41.620752+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 3,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:42.289415+00:00",
+      "actual_system_utc": "2026-11-13T07:38:42.661297+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:42.661306+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 4,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:43.289203+00:00",
+      "actual_system_utc": "2026-11-13T07:38:43.654311+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:43.654320+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 5,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:44.274824+00:00",
+      "actual_system_utc": "2026-11-13T07:38:44.591806+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:44.591816+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 6,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:45.215275+00:00",
+      "actual_system_utc": "2026-11-13T07:38:45.536483+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:45.536493+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 7,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:46.172313+00:00",
+      "actual_system_utc": "2026-11-13T07:38:46.494738+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:46.494753+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 8,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:47.122201+00:00",
+      "actual_system_utc": "2026-11-13T07:38:47.488906+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:47.488915+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 9,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:48.104320+00:00",
+      "actual_system_utc": "2026-11-13T07:38:48.431635+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:48.431646+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 10,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:49.073975+00:00",
+      "actual_system_utc": "2026-11-13T07:38:49.393013+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:49.393027+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 11,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:50.074865+00:00",
+      "actual_system_utc": "2026-11-13T07:38:50.446021+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:50.446032+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    },
+    {
+      "index": 12,
+      "capture_ready": true,
+      "before_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "after_container": [
+        "pass",
+        "Runtime evidence matches this run; not an authorization token"
+      ],
+      "issued_at_utc": "2026-11-13T07:38:51.130842+00:00",
+      "actual_system_utc": "2026-11-13T07:38:51.503038+00:00",
+      "anchored_runtime_utc": "2026-11-13T07:38:51.503048+00:00",
+      "clock_policy": "dashboard-boottime-utc-v1"
+    }
+  ],
+  "frozen_core_sources": {
+    "scripts/terminal_agent_v1.py": "0dc5da77b27b1a28df6620599af60bb9eb7eaa5622b8ff0cc5260b9daeddd397",
+    "scripts/terminal_sandbox_v1.py": "e79d1662b0edb481d246dd140bf84806e93069751381d5ed93d98bc839ddd971",
+    "scripts/usd_ledger_v1.py": "66680f6ab471b55abd8900111fee4dcfa1dac4169dea495ace9902d83eeaed46",
+    "scripts/terminal_verifier_v1.py": "90389374cfa4cd78d1f2224f7208c61701b15e40d5c2e3c9ca0d11dff254723b",
+    "scripts/terminal_provider_worker_v1.py": "fae2e9063b3e38b1c4a218b3f5c16d156f70fe5ddcc0b3063f63cc16aa56013c",
+    "scripts/terminal_smoke_v1.py": "57589078ada76330a568553827a34fa7775e7f6ab5e4699644c85f0b2e64ae65",
+    "scripts/preflight.py": "f093c35d5f0c20e4811983586352563b913d1003778c340ba2d72bd3b571e168",
+    "scripts/runtime_process.py": "d9dfaecd0188e9160a874986a5b803f33e71382b23ee3aaec353396923ae0760",
+    "scripts/credential_artifacts.py": "18cbfc81b20378421d8ebe835d3c182dedd03f349ca9c0d01eb0406d5aafbeac",
+    "scripts/pilot_contracts.py": "5f55c7506ed1fc8b423d4efb97c96020ac2b64d8c3ce6ef79184dd08a0859631",
+    "scripts/materialize_variants.py": "bbecf346b2ebc9275ea5df4cef11c20b2d67ea0d47e852a6bfca0fbb7bc6270f",
+    "scripts/review_records.py": "6f6192cc53b46026e5325e438e5ba1b94f73c6ecab8b73748ab4a4ba166293b4",
+    "scripts/scoped_credentials.py": "ab4265006fa59ca9cb3543a3fda5b4f3b0173d8ea73c1116fea30f6be1ac3825",
+    "scripts/provider_connectivity_v1.py": "cab114a9c2e51468c3776b338c4b1c5bd0df9d50fe2252d2e30e41ddc7590da6",
+    "scripts/development_contracts.py": "dcefd85c987c329261fc36792bd89be8d9eed145c7c01291a541df0320349c81",
+    "scripts/development_ledger.py": "b5f102190a14416b36299abc05cce1eabd74b385144cc808f71b0da3c6ac0c7a",
+    "scripts/development_agent.py": "022a73507323e649b4c70d4e0700a5ca2407458c8210ffa7b24b37bf6b5ba8fa",
+    "scripts/dev_benchmark.py": "e4cdf181a9d9b0067dd3d895f39b87b7596c40d99e9db3d7bd17392475286f89",
+    "scripts/development_sandbox.py": "3b8584461906617fd568a75d998e53d625803a89bad7fc9cfa72f15de95fa483",
+    "scripts/development_verifier.py": "0ab0e11a0d039808d82c606e70f6d6ae299fe56c0568271ffc8a86213742654a",
+    "scripts/capture_runtime_development.py": "3d6b70a1372ae31cea5ae839f94cfe32771a619f9fe4878a07755ce15b44d66d",
+    "scripts/with_runtime_proxy_v2.py": "39a2d2ab8eb2d84531c9abf058ff685eea2875be58f90672723a47e39eba6203",
+    "scripts/capture_runtime_attestation.py": "5ef0008761d2b11e52c8eefc3151717095192ad68adb1cbb9537e8f252b27f41",
+    "scripts/development-benchmark.sh": "623fc5ee9f9ec6efa3bd90a1bc241cfb452b5410cb1906bf138721e36fd0b75e",
+    "configs/development-runtime-profiles.json": "3a8303950451d6825f2318d1b320c48b285201cf1f9e4174d9e815dbe9031f1a"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-11-12T06:43:17.743354+00:00",
+  "kind": "stage3-baseline-evidence-not-new-runtime-probe",
+  "archives": {
+    "m1-linux-validation.tar.gz": {
+      "sha256": "5b773351699330f17617edce85454e13bd507fe22ec0733337aa7b25d1345450",
+      "bytes": 15803,
+      "matched": true
+    },
+    "native-six-validation.tar.gz": {
+      "sha256": "bafa17779a804b22d22260a207f72ae03a1ed7dc43327534428fddacb20f046c",
+      "bytes": 76476,
+      "matched": true
+    }
+  },
+  "file_sha256": {
+    "reports/native-six-oracle-run.json": "4855227d60fc1bb7fd640da7b6040bb557b6ae8aef75ebe7b8b893fa603f8341",
+    "reports/native-six-nop-run.json": "12fe740c05b33d056b2d936c6a132d35c9bebdfcd3ba059c324f3d58027b0596",
+    "reports/native-six-task-snapshot.json": "3e67c4f876a5161edd0eec8bf0215005fb825611a1da7c580c8192d63fb7686f",
+    "reports/native-six-preflight-final.json": "7baa99791a143d4a8807197481255993434150ac1b716a9e0644593d9612c0e4",
+    "uv.lock": "bf71ac7394c8e888aabe8509a1ee2d9e723cfea6a81981d656cfb8412488ee5c"
+  },
+  "canonical_task_payloads": {
+    "b001-vn-invoice": "b19a1a2aa7f105227d25fd5e8aa789e1166a83dfd91f960379c68ab6d2244f3e",
+    "b002-unicode-files": "eb697b96b4679b8a9266c1cfd57db4f816bb0a941503d034cfdb69c9db2e2a9d",
+    "b003-windows1258": "21d2b14d4bac76de63a7424dd8eff69befda6262f3ee82094213abcbdc0b7c42",
+    "b004-accent-search": "18d699485ee400e52e30d75832ac2fe98d26c8c1a2fed93593e26573f3ca2eef",
+    "b005-vietnamese-collation": "fd80d79c27fd2aa7f07309164bd6586a278429f16ba48d7d765c0f44a6c9a2e3",
+    "b006-vietnamese-csv-export": "17e6f34e40070a84de5f2bb18474597cb3461e02e4176cf5194eaafab24b86d2"
+  },
+  "task_content_changed": false,
+  "historical_readiness": false
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/host-services/docker.proxy.sock",
+    "status": 200,
+    "version": "28.1.1",
+    "os": "linux"
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/docker.proxy.sock",
+    "error_type": "TimeoutError"
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/docker.container-proxy.sock",
+    "status": 200,
+    "version": "28.1.1",
+    "os": "linux"
+  },
+  {
+    "path": "/mnt/wsl/docker-desktop/shared-sockets/guest-services/Ubuntu-22.04.docker.container-proxy.sock",
+    "error_type": "TimeoutError"
+  }
+]

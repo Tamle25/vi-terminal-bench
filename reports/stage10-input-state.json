@@ -1,0 +1,54 @@
+{
+  "schema": "vi-stage10-input-state/1",
+  "client_date": "2026-11-13",
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "historical_verified_files": 309,
+  "living_documents_verified_in_archive": [
+    "Plan/plan-giai-doan-9.md",
+    "Plan/plan.md",
+    "README.md"
+  ],
+  "living_document_current_changes": [],
+  "stage9_archive_sha256": "a0111469484cfd28d4e9e3a7b37d7151a16b149af1c1db3835949173fc5a76aa",
+  "stage9_ledger_sha256": "6d36794fa6b751915fd3e5c45c7081a4cf8c962cb64f2ba0bc12fd4ce4e03bf9",
+  "stage9_ledger_readonly_unchanged": true,
+  "connectivity": {
+    "run_id": "stage9-openai-connectivity-001",
+    "state": "observed",
+    "held_usd": "0.01",
+    "token_price_estimate_usd": "0.0000705",
+    "invoice_usd": null
+  },
+  "draft_config_sha256": "241cb81a6e98ecdf1516539f40ff179515ded817b9bed6f2a9719dd74223e128",
+  "agent_source_sha256": {
+    "scripts/terminal_agent_v1.py": "b97e00b608573a533686b1b95aa45a528b1bb2c35c5f95f396ed17d28fd4da72",
+    "scripts/terminal_sandbox_v1.py": "37a314f9c3d8afcaa6f061d3d1fefd78b783011d61e78eff8fdb36f2d83af186",
+    "scripts/usd_ledger_v1.py": "c5db574265df7a92c378388e247d4766fbfa56c4e2f93fc4c1f6e6ec26bf5065",
+    "scripts/pilot_contracts.py": "5f55c7506ed1fc8b423d4efb97c96020ac2b64d8c3ce6ef79184dd08a0859631",
+    "scripts/materialize_variants.py": "bbecf346b2ebc9275ea5df4cef11c20b2d67ea0d47e852a6bfca0fbb7bc6270f",
+    "scripts/review_records.py": "6f6192cc53b46026e5325e438e5ba1b94f73c6ecab8b73748ab4a4ba166293b4",
+    "scripts/scoped_credentials.py": "ab4265006fa59ca9cb3543a3fda5b4f3b0173d8ea73c1116fea30f6be1ac3825",
+    "scripts/provider_connectivity_v1.py": "cab114a9c2e51468c3776b338c4b1c5bd0df9d50fe2252d2e30e41ddc7590da6"
+  },
+  "credential_value_read": false,
+  "public_source_policy": "pass",
+  "public_source_inputs": 199,
+  "request_reservation_nano": 208608000,
+  "max_smoke_inference_nano": 1668864000,
+  "review_accepted": 0,
+  "review_total": 6,
+  "reviewer_answer": "No reviewer yet; prepare pending kit",
+  "states": {
+    "model_snapshot": "previously_connected",
+    "agent": "implemented_pending_validation",
+    "runtime": "failed_default_wsl_docker_probe",
+    "review": "missing_input",
+    "smoke_budget_authorization": "missing_input",
+    "compute_pricing": "missing_input",
+    "terminal_container_integration": "unverified",
+    "real_smoke_dispatch": "disabled"
+  },
+  "new_api_calls": 0,
+  "benchmark_trials": 0,
+  "native_pilot_ready": false
+}

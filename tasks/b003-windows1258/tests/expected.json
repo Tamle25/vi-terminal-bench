@@ -1,0 +1,29 @@
+{
+  "texts": {
+    "01.txt": "Đặng Hồng\n",
+    "02.txt": "đơn – Việt\n",
+    "03.txt": ""
+  },
+  "report": [
+    {
+      "file": "01.bin",
+      "status": "converted",
+      "output": "01.txt"
+    },
+    {
+      "file": "02.bin",
+      "status": "converted",
+      "output": "02.txt"
+    },
+    {
+      "file": "03.bin",
+      "status": "converted",
+      "output": "03.txt"
+    },
+    {
+      "file": "04.bin",
+      "status": "invalid_encoding",
+      "output": null
+    }
+  ]
+}

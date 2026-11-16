@@ -1,0 +1,37 @@
+{
+  "kind": "stage3-technical-summary-not-model-evaluation",
+  "historical_archives_unchanged": true,
+  "six_task_payloads_unchanged": true,
+  "smoke_trials": 4,
+  "smoke_all_passed": true,
+  "smoke_archive_sha256": "cca274ec917554529818f6ec5368691fc6f2e92f662dc38e8e23a3725ba784aa",
+  "restored_jobs": [
+    {
+      "job": "stage3-targeted-oracle-smoke-vi-r1",
+      "trials": 2,
+      "all_matched": true
+    },
+    {
+      "job": "stage3-targeted-oracle-smoke-vi-r2",
+      "trials": 2,
+      "all_matched": true
+    }
+  ],
+  "tests_run": 41,
+  "tests_clean": true,
+  "default_preflight_ready": false,
+  "scoped_proxy_preflight_ready": true,
+  "relay_directories_remaining": [],
+  "review_bundles": {
+    "public": {
+      "path": "/mnt/d/Xay dung tuong tu bo Terminal-Bench/jobs/stage3-review-public.tar.gz",
+      "sha256": "ee2da2c63b0a4d18992bfd18eb404308889b4d3650025cd813158602ab25e7da"
+    },
+    "reference": {
+      "path": "/mnt/d/Xay dung tuong tu bo Terminal-Bench/jobs/stage3-review-reference.tar.gz",
+      "sha256": "e8ec363314458a82bda5fc1dc80dde09e4bb88d2659e4cebda61762af434777e"
+    }
+  },
+  "independent_review": "pending",
+  "model_calls": 0
+}

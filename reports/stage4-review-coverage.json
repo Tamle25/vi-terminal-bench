@@ -1,0 +1,16 @@
+{
+  "schema": "vi-review-coverage/0.1",
+  "snapshot_id": "490323ee9077ad81f00c2468a69ecd45884cba7caafb0a1dca1f1507b8679288",
+  "accepted_count": 0,
+  "total_tasks": 6,
+  "accepted_tasks": [],
+  "pending_tasks": [
+    "b001-vn-invoice",
+    "b002-unicode-files",
+    "b003-windows1258",
+    "b004-accent-search",
+    "b005-vietnamese-collation",
+    "b006-vietnamese-csv-export"
+  ],
+  "identity_note": "Record consistency check; does not authenticate a human identity or create authorization"
+}
